@@ -73,5 +73,58 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void tabPage19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void isolAddBrack_Click(object sender, EventArgs e)
+        {
+            var newBrack = new IsolBrack();
+            newBrack.ShowDialog();
+        }
+
+        private void isolChangeBrack_Click(object sender, EventArgs e)
+        {
+            var newBrack = new IsolBrack();
+            newBrack.ShowDialog();
+        }
+
+        private void isolShowBrack_Click(object sender, EventArgs e)
+        {
+            var newBrack = new IsolBrack();
+            newBrack.ShowDialog();
+        }
+
+        private void dataGridView7_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void materialCard9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void materialCard8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void isolBalanceMainData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
