@@ -144,5 +144,17 @@ namespace WinFormsApp1
             var nf = new NotFinish();
             nf.ShowDialog();
         }
+
+        private void materialButton4_Click_1(object sender, EventArgs e)
+        {
+            var pp = new Perepack();
+            pp.ShowDialog();
+        }
+
+        private void materialButton7_Click(object sender, EventArgs e)
+        {
+            var pp = new Perepack();
+            pp.ShowDialog();
+        }
     }
 }
