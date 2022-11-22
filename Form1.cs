@@ -126,5 +126,23 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void materialButton6_Click(object sender, EventArgs e)
+        {
+            var nf = new NotFinish();
+            nf.ShowDialog();
+        }
+
+        private void materialButton5_Click(object sender, EventArgs e)
+        {
+            var nf = new NotFinish();
+            nf.ShowDialog();
+        }
+
+        private void materialButton4_Click(object sender, EventArgs e)
+        {
+            var nf = new NotFinish();
+            nf.ShowDialog();
+        }
     }
 }

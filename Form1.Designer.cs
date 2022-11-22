@@ -378,14 +378,7 @@ namespace WinFormsApp1
             this.materialTabSelector4 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl5 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage22 = new System.Windows.Forms.TabPage();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isolDataEdit = new System.Windows.Forms.DataGridView();
             this.materialCard6 = new MaterialSkin.Controls.MaterialCard();
             this.isolShowBrack = new MaterialSkin.Controls.MaterialButton();
             this.isolChangeBrack = new MaterialSkin.Controls.MaterialButton();
@@ -444,6 +437,66 @@ namespace WinFormsApp1
             this.label110 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.isolReportLine = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialTabSelector5 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.materialTabControl6 = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabPage26 = new System.Windows.Forms.TabPage();
+            this.notFinishData = new System.Windows.Forms.DataGridView();
+            this.materialCard12 = new MaterialSkin.Controls.MaterialCard();
+            this.notFinishAbout = new MaterialSkin.Controls.MaterialButton();
+            this.notFinishChange = new MaterialSkin.Controls.MaterialButton();
+            this.notFinishNew = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage27 = new System.Windows.Forms.TabPage();
+            this.notFinishHistoryData = new System.Windows.Forms.DataGridView();
+            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
+            this.notFinishHistoryMonth = new MaterialSkin.Controls.MaterialComboBox();
+            this.notFinishHistoryYear = new MaterialSkin.Controls.MaterialComboBox();
+            this.notFinishHistoryFilter = new MaterialSkin.Controls.MaterialButton();
+            this.notFinishHistoryClear = new MaterialSkin.Controls.MaterialButton();
+            this.tabPage28 = new System.Windows.Forms.TabPage();
+            this.notFinishBalanceSecData = new System.Windows.Forms.DataGridView();
+            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
+            this.notFinishBalanceMainData = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn67 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn68 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn69 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn60 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn64 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn65 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.materialCard1.SuspendLayout();
@@ -474,7 +527,7 @@ namespace WinFormsApp1
             this.tabPage5.SuspendLayout();
             this.materialTabControl5.SuspendLayout();
             this.tabPage22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isolDataEdit)).BeginInit();
             this.materialCard6.SuspendLayout();
             this.tabPage23.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.isolHistoryData)).BeginInit();
@@ -489,6 +542,19 @@ namespace WinFormsApp1
             this.materialCard10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.isolReportMonth)).BeginInit();
             this.materialCard11.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.materialTabControl6.SuspendLayout();
+            this.tabPage26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishData)).BeginInit();
+            this.materialCard12.SuspendLayout();
+            this.tabPage27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishHistoryData)).BeginInit();
+            this.materialCard13.SuspendLayout();
+            this.tabPage28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceSecData)).BeginInit();
+            this.materialCard14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceMainData)).BeginInit();
+            this.materialCard15.SuspendLayout();
             this.SuspendLayout();
             // 
             // imageList1
@@ -4716,7 +4782,7 @@ namespace WinFormsApp1
             // 
             // tabPage22
             // 
-            this.tabPage22.Controls.Add(this.dataGridView6);
+            this.tabPage22.Controls.Add(this.isolDataEdit);
             this.tabPage22.Controls.Add(this.materialCard6);
             this.tabPage22.Location = new System.Drawing.Point(4, 24);
             this.tabPage22.Name = "tabPage22";
@@ -4726,11 +4792,11 @@ namespace WinFormsApp1
             this.tabPage22.Text = "Редактирование";
             this.tabPage22.UseVisualStyleBackColor = true;
             // 
-            // dataGridView6
+            // isolDataEdit
             // 
-            this.dataGridView6.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.isolDataEdit.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.isolDataEdit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.isolDataEdit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn22,
             this.dataGridViewTextBoxColumn23,
             this.Column25,
@@ -4738,46 +4804,11 @@ namespace WinFormsApp1
             this.Column21,
             this.Column22,
             this.Column23});
-            this.dataGridView6.Location = new System.Drawing.Point(24, 81);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.RowTemplate.Height = 25;
-            this.dataGridView6.Size = new System.Drawing.Size(1099, 503);
-            this.dataGridView6.TabIndex = 8;
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.HeaderText = "Смена";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            // 
-            // Column25
-            // 
-            this.Column25.HeaderText = "Линия";
-            this.Column25.Name = "Column25";
-            // 
-            // Column20
-            // 
-            this.Column20.HeaderText = "Ассортимент";
-            this.Column20.Name = "Column20";
-            // 
-            // Column21
-            // 
-            this.Column21.HeaderText = "Количество";
-            this.Column21.Name = "Column21";
-            // 
-            // Column22
-            // 
-            this.Column22.HeaderText = "Номер талона";
-            this.Column22.Name = "Column22";
-            // 
-            // Column23
-            // 
-            this.Column23.HeaderText = "Номер паллета";
-            this.Column23.Name = "Column23";
+            this.isolDataEdit.Location = new System.Drawing.Point(24, 81);
+            this.isolDataEdit.Name = "isolDataEdit";
+            this.isolDataEdit.RowTemplate.Height = 25;
+            this.isolDataEdit.Size = new System.Drawing.Size(1099, 503);
+            this.isolDataEdit.TabIndex = 8;
             // 
             // materialCard6
             // 
@@ -5321,6 +5352,8 @@ namespace WinFormsApp1
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.materialTabSelector5);
+            this.tabPage6.Controls.Add(this.materialTabControl6);
             this.tabPage6.ImageKey = "beer_recipe_30px.png";
             this.tabPage6.Location = new System.Drawing.Point(4, 74);
             this.tabPage6.Name = "tabPage6";
@@ -5453,6 +5486,633 @@ namespace WinFormsApp1
             this.isolReportLine.StartIndex = 0;
             this.isolReportLine.TabIndex = 18;
             // 
+            // materialLabel12
+            // 
+            this.materialLabel12.AutoSize = true;
+            this.materialLabel12.Depth = 0;
+            this.materialLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel12.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel12.Name = "materialLabel12";
+            this.materialLabel12.Size = new System.Drawing.Size(444, 19);
+            this.materialLabel12.TabIndex = 0;
+            // 
+            // materialButton3
+            // 
+            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton3.Depth = 0;
+            this.materialButton3.HighEmphasis = true;
+            this.materialButton3.Icon = null;
+            this.materialButton3.Location = new System.Drawing.Point(722, 6);
+            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton3.Name = "materialButton3";
+            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton3.Size = new System.Drawing.Size(89, 36);
+            this.materialButton3.TabIndex = 1;
+            this.materialButton3.Text = "Добавть";
+            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton3.UseAccentColor = false;
+            this.materialButton3.UseVisualStyleBackColor = true;
+            // 
+            // materialButton2
+            // 
+            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton2.Depth = 0;
+            this.materialButton2.HighEmphasis = true;
+            this.materialButton2.Icon = null;
+            this.materialButton2.Location = new System.Drawing.Point(837, 6);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton2.Name = "materialButton2";
+            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton2.Size = new System.Drawing.Size(101, 36);
+            this.materialButton2.TabIndex = 1;
+            this.materialButton2.Text = "Изменить";
+            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton2.UseAccentColor = false;
+            this.materialButton2.UseVisualStyleBackColor = true;
+            // 
+            // materialButton1
+            // 
+            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton1.Depth = 0;
+            this.materialButton1.HighEmphasis = true;
+            this.materialButton1.Icon = null;
+            this.materialButton1.Location = new System.Drawing.Point(963, 6);
+            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton1.Name = "materialButton1";
+            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton1.Size = new System.Drawing.Size(110, 36);
+            this.materialButton1.TabIndex = 1;
+            this.materialButton1.Text = "Подробнее";
+            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton1.UseAccentColor = false;
+            this.materialButton1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.HeaderText = "Номер паллета";
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.HeaderText = "Номер талона";
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            // 
+            // materialTabSelector5
+            // 
+            this.materialTabSelector5.BaseTabControl = this.materialTabControl6;
+            this.materialTabSelector5.CharacterCasing = MaterialSkin.Controls.MaterialTabSelector.CustomCharacterCasing.Normal;
+            this.materialTabSelector5.Depth = 0;
+            this.materialTabSelector5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTabSelector5.Location = new System.Drawing.Point(6, 5);
+            this.materialTabSelector5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabSelector5.Name = "materialTabSelector5";
+            this.materialTabSelector5.Size = new System.Drawing.Size(721, 48);
+            this.materialTabSelector5.TabIndex = 3;
+            this.materialTabSelector5.Text = "materialTabSelector5";
+            // 
+            // materialTabControl6
+            // 
+            this.materialTabControl6.Controls.Add(this.tabPage26);
+            this.materialTabControl6.Controls.Add(this.tabPage27);
+            this.materialTabControl6.Controls.Add(this.tabPage28);
+            this.materialTabControl6.Depth = 0;
+            this.materialTabControl6.Location = new System.Drawing.Point(2, 59);
+            this.materialTabControl6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabControl6.Multiline = true;
+            this.materialTabControl6.Name = "materialTabControl6";
+            this.materialTabControl6.SelectedIndex = 0;
+            this.materialTabControl6.Size = new System.Drawing.Size(1148, 805);
+            this.materialTabControl6.TabIndex = 2;
+            // 
+            // tabPage26
+            // 
+            this.tabPage26.Controls.Add(this.notFinishData);
+            this.tabPage26.Controls.Add(this.materialCard12);
+            this.tabPage26.Location = new System.Drawing.Point(4, 24);
+            this.tabPage26.Name = "tabPage26";
+            this.tabPage26.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage26.Size = new System.Drawing.Size(1140, 777);
+            this.tabPage26.TabIndex = 0;
+            this.tabPage26.Text = "Редактирование";
+            this.tabPage26.UseVisualStyleBackColor = true;
+            // 
+            // notFinishData
+            // 
+            this.notFinishData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.notFinishData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.notFinishData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn50,
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53,
+            this.dataGridViewTextBoxColumn54,
+            this.dataGridViewTextBoxColumn55});
+            this.notFinishData.Location = new System.Drawing.Point(24, 81);
+            this.notFinishData.Name = "notFinishData";
+            this.notFinishData.RowTemplate.Height = 25;
+            this.notFinishData.Size = new System.Drawing.Size(1099, 503);
+            this.notFinishData.TabIndex = 8;
+            // 
+            // materialCard12
+            // 
+            this.materialCard12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard12.Controls.Add(this.notFinishAbout);
+            this.materialCard12.Controls.Add(this.notFinishChange);
+            this.materialCard12.Controls.Add(this.notFinishNew);
+            this.materialCard12.Controls.Add(this.materialLabel13);
+            this.materialCard12.Depth = 0;
+            this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard12.Location = new System.Drawing.Point(24, 17);
+            this.materialCard12.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard12.Name = "materialCard12";
+            this.materialCard12.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard12.Size = new System.Drawing.Size(1099, 48);
+            this.materialCard12.TabIndex = 0;
+            // 
+            // notFinishAbout
+            // 
+            this.notFinishAbout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.notFinishAbout.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.notFinishAbout.Depth = 0;
+            this.notFinishAbout.HighEmphasis = true;
+            this.notFinishAbout.Icon = null;
+            this.notFinishAbout.Location = new System.Drawing.Point(963, 6);
+            this.notFinishAbout.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.notFinishAbout.MouseState = MaterialSkin.MouseState.HOVER;
+            this.notFinishAbout.Name = "notFinishAbout";
+            this.notFinishAbout.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.notFinishAbout.Size = new System.Drawing.Size(110, 36);
+            this.notFinishAbout.TabIndex = 1;
+            this.notFinishAbout.Text = "Подробнее";
+            this.notFinishAbout.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.notFinishAbout.UseAccentColor = false;
+            this.notFinishAbout.UseVisualStyleBackColor = true;
+            this.notFinishAbout.Click += new System.EventHandler(this.materialButton4_Click);
+            // 
+            // notFinishChange
+            // 
+            this.notFinishChange.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.notFinishChange.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.notFinishChange.Depth = 0;
+            this.notFinishChange.HighEmphasis = true;
+            this.notFinishChange.Icon = null;
+            this.notFinishChange.Location = new System.Drawing.Point(837, 6);
+            this.notFinishChange.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.notFinishChange.MouseState = MaterialSkin.MouseState.HOVER;
+            this.notFinishChange.Name = "notFinishChange";
+            this.notFinishChange.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.notFinishChange.Size = new System.Drawing.Size(101, 36);
+            this.notFinishChange.TabIndex = 1;
+            this.notFinishChange.Text = "Изменить";
+            this.notFinishChange.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.notFinishChange.UseAccentColor = false;
+            this.notFinishChange.UseVisualStyleBackColor = true;
+            this.notFinishChange.Click += new System.EventHandler(this.materialButton5_Click);
+            // 
+            // notFinishNew
+            // 
+            this.notFinishNew.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.notFinishNew.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.notFinishNew.Depth = 0;
+            this.notFinishNew.HighEmphasis = true;
+            this.notFinishNew.Icon = null;
+            this.notFinishNew.Location = new System.Drawing.Point(722, 6);
+            this.notFinishNew.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.notFinishNew.MouseState = MaterialSkin.MouseState.HOVER;
+            this.notFinishNew.Name = "notFinishNew";
+            this.notFinishNew.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.notFinishNew.Size = new System.Drawing.Size(89, 36);
+            this.notFinishNew.TabIndex = 1;
+            this.notFinishNew.Text = "Добавть";
+            this.notFinishNew.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.notFinishNew.UseAccentColor = false;
+            this.notFinishNew.UseVisualStyleBackColor = true;
+            this.notFinishNew.Click += new System.EventHandler(this.materialButton6_Click);
+            // 
+            // materialLabel13
+            // 
+            this.materialLabel13.AutoSize = true;
+            this.materialLabel13.Depth = 0;
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel13.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel13.Name = "materialLabel13";
+            this.materialLabel13.Size = new System.Drawing.Size(466, 19);
+            this.materialLabel13.TabIndex = 0;
+            this.materialLabel13.Text = "Список имеющихся незавершенных паллет за текущий месяц";
+            // 
+            // tabPage27
+            // 
+            this.tabPage27.Controls.Add(this.notFinishHistoryData);
+            this.tabPage27.Controls.Add(this.materialCard13);
+            this.tabPage27.Location = new System.Drawing.Point(4, 24);
+            this.tabPage27.Name = "tabPage27";
+            this.tabPage27.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage27.Size = new System.Drawing.Size(1140, 777);
+            this.tabPage27.TabIndex = 1;
+            this.tabPage27.Text = "История";
+            this.tabPage27.UseVisualStyleBackColor = true;
+            // 
+            // notFinishHistoryData
+            // 
+            this.notFinishHistoryData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.notFinishHistoryData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.notFinishHistoryData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn57,
+            this.dataGridViewTextBoxColumn58,
+            this.dataGridViewTextBoxColumn59,
+            this.dataGridViewTextBoxColumn60,
+            this.dataGridViewTextBoxColumn61,
+            this.dataGridViewTextBoxColumn62,
+            this.dataGridViewTextBoxColumn63,
+            this.Column26});
+            this.notFinishHistoryData.Location = new System.Drawing.Point(24, 99);
+            this.notFinishHistoryData.Name = "notFinishHistoryData";
+            this.notFinishHistoryData.RowTemplate.Height = 25;
+            this.notFinishHistoryData.Size = new System.Drawing.Size(1099, 503);
+            this.notFinishHistoryData.TabIndex = 10;
+            // 
+            // materialCard13
+            // 
+            this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard13.Controls.Add(this.notFinishHistoryMonth);
+            this.materialCard13.Controls.Add(this.notFinishHistoryYear);
+            this.materialCard13.Controls.Add(this.notFinishHistoryFilter);
+            this.materialCard13.Controls.Add(this.notFinishHistoryClear);
+            this.materialCard13.Depth = 0;
+            this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard13.Location = new System.Drawing.Point(24, 18);
+            this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard13.Name = "materialCard13";
+            this.materialCard13.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard13.Size = new System.Drawing.Size(1099, 64);
+            this.materialCard13.TabIndex = 9;
+            // 
+            // notFinishHistoryMonth
+            // 
+            this.notFinishHistoryMonth.AutoResize = false;
+            this.notFinishHistoryMonth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.notFinishHistoryMonth.Depth = 0;
+            this.notFinishHistoryMonth.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.notFinishHistoryMonth.DropDownHeight = 174;
+            this.notFinishHistoryMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.notFinishHistoryMonth.DropDownWidth = 121;
+            this.notFinishHistoryMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.notFinishHistoryMonth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.notFinishHistoryMonth.FormattingEnabled = true;
+            this.notFinishHistoryMonth.Hint = "Месяц";
+            this.notFinishHistoryMonth.IntegralHeight = false;
+            this.notFinishHistoryMonth.ItemHeight = 43;
+            this.notFinishHistoryMonth.Items.AddRange(new object[] {
+            "Январь",
+            "Февраль",
+            "Март",
+            "Апрель",
+            "Май",
+            "Июнь",
+            "Июль",
+            "Август",
+            "Сентябрь",
+            "Октябрь",
+            "Ноябрь",
+            "Декабрь"});
+            this.notFinishHistoryMonth.Location = new System.Drawing.Point(177, 8);
+            this.notFinishHistoryMonth.MaxDropDownItems = 4;
+            this.notFinishHistoryMonth.MouseState = MaterialSkin.MouseState.OUT;
+            this.notFinishHistoryMonth.Name = "notFinishHistoryMonth";
+            this.notFinishHistoryMonth.Size = new System.Drawing.Size(229, 49);
+            this.notFinishHistoryMonth.StartIndex = 0;
+            this.notFinishHistoryMonth.TabIndex = 3;
+            // 
+            // notFinishHistoryYear
+            // 
+            this.notFinishHistoryYear.AutoResize = false;
+            this.notFinishHistoryYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.notFinishHistoryYear.Depth = 0;
+            this.notFinishHistoryYear.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.notFinishHistoryYear.DropDownHeight = 174;
+            this.notFinishHistoryYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.notFinishHistoryYear.DropDownWidth = 121;
+            this.notFinishHistoryYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.notFinishHistoryYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.notFinishHistoryYear.FormattingEnabled = true;
+            this.notFinishHistoryYear.Hint = "Год";
+            this.notFinishHistoryYear.IntegralHeight = false;
+            this.notFinishHistoryYear.ItemHeight = 43;
+            this.notFinishHistoryYear.Items.AddRange(new object[] {
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"});
+            this.notFinishHistoryYear.Location = new System.Drawing.Point(32, 8);
+            this.notFinishHistoryYear.MaxDropDownItems = 4;
+            this.notFinishHistoryYear.MouseState = MaterialSkin.MouseState.OUT;
+            this.notFinishHistoryYear.Name = "notFinishHistoryYear";
+            this.notFinishHistoryYear.Size = new System.Drawing.Size(123, 49);
+            this.notFinishHistoryYear.StartIndex = 0;
+            this.notFinishHistoryYear.TabIndex = 3;
+            // 
+            // notFinishHistoryFilter
+            // 
+            this.notFinishHistoryFilter.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.notFinishHistoryFilter.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.notFinishHistoryFilter.Depth = 0;
+            this.notFinishHistoryFilter.HighEmphasis = true;
+            this.notFinishHistoryFilter.Icon = null;
+            this.notFinishHistoryFilter.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.notFinishHistoryFilter.Location = new System.Drawing.Point(963, 14);
+            this.notFinishHistoryFilter.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.notFinishHistoryFilter.MouseState = MaterialSkin.MouseState.HOVER;
+            this.notFinishHistoryFilter.Name = "notFinishHistoryFilter";
+            this.notFinishHistoryFilter.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.notFinishHistoryFilter.Size = new System.Drawing.Size(81, 36);
+            this.notFinishHistoryFilter.TabIndex = 1;
+            this.notFinishHistoryFilter.Text = "Фильтр";
+            this.notFinishHistoryFilter.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.notFinishHistoryFilter.UseAccentColor = false;
+            this.notFinishHistoryFilter.UseVisualStyleBackColor = true;
+            // 
+            // notFinishHistoryClear
+            // 
+            this.notFinishHistoryClear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.notFinishHistoryClear.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.notFinishHistoryClear.Depth = 0;
+            this.notFinishHistoryClear.HighEmphasis = true;
+            this.notFinishHistoryClear.Icon = null;
+            this.notFinishHistoryClear.Location = new System.Drawing.Point(851, 14);
+            this.notFinishHistoryClear.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.notFinishHistoryClear.MouseState = MaterialSkin.MouseState.HOVER;
+            this.notFinishHistoryClear.Name = "notFinishHistoryClear";
+            this.notFinishHistoryClear.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.notFinishHistoryClear.Size = new System.Drawing.Size(98, 36);
+            this.notFinishHistoryClear.TabIndex = 1;
+            this.notFinishHistoryClear.Text = "Сбросить";
+            this.notFinishHistoryClear.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.notFinishHistoryClear.UseAccentColor = false;
+            this.notFinishHistoryClear.UseVisualStyleBackColor = true;
+            // 
+            // tabPage28
+            // 
+            this.tabPage28.Controls.Add(this.notFinishBalanceSecData);
+            this.tabPage28.Controls.Add(this.materialCard14);
+            this.tabPage28.Controls.Add(this.notFinishBalanceMainData);
+            this.tabPage28.Controls.Add(this.materialCard15);
+            this.tabPage28.Location = new System.Drawing.Point(4, 24);
+            this.tabPage28.Name = "tabPage28";
+            this.tabPage28.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage28.Size = new System.Drawing.Size(1140, 777);
+            this.tabPage28.TabIndex = 2;
+            this.tabPage28.Text = "Баланс";
+            this.tabPage28.UseVisualStyleBackColor = true;
+            // 
+            // notFinishBalanceSecData
+            // 
+            this.notFinishBalanceSecData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.notFinishBalanceSecData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.notFinishBalanceSecData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn64,
+            this.dataGridViewTextBoxColumn65});
+            this.notFinishBalanceSecData.Location = new System.Drawing.Point(531, 78);
+            this.notFinishBalanceSecData.Name = "notFinishBalanceSecData";
+            this.notFinishBalanceSecData.RowTemplate.Height = 25;
+            this.notFinishBalanceSecData.Size = new System.Drawing.Size(477, 680);
+            this.notFinishBalanceSecData.TabIndex = 12;
+            // 
+            // materialCard14
+            // 
+            this.materialCard14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard14.Controls.Add(this.materialLabel14);
+            this.materialCard14.Depth = 0;
+            this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard14.Location = new System.Drawing.Point(531, 14);
+            this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard14.Name = "materialCard14";
+            this.materialCard14.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard14.Size = new System.Drawing.Size(477, 48);
+            this.materialCard14.TabIndex = 11;
+            // 
+            // materialLabel14
+            // 
+            this.materialLabel14.AutoSize = true;
+            this.materialLabel14.Depth = 0;
+            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel14.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel14.Name = "materialLabel14";
+            this.materialLabel14.Size = new System.Drawing.Size(111, 19);
+            this.materialLabel14.TabIndex = 0;
+            this.materialLabel14.Text = "Список паллет";
+            // 
+            // notFinishBalanceMainData
+            // 
+            this.notFinishBalanceMainData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.notFinishBalanceMainData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.notFinishBalanceMainData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn67,
+            this.dataGridViewTextBoxColumn68,
+            this.dataGridViewTextBoxColumn69});
+            this.notFinishBalanceMainData.Location = new System.Drawing.Point(21, 78);
+            this.notFinishBalanceMainData.Name = "notFinishBalanceMainData";
+            this.notFinishBalanceMainData.RowTemplate.Height = 25;
+            this.notFinishBalanceMainData.Size = new System.Drawing.Size(477, 680);
+            this.notFinishBalanceMainData.TabIndex = 10;
+            // 
+            // dataGridViewTextBoxColumn67
+            // 
+            this.dataGridViewTextBoxColumn67.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn67.Name = "dataGridViewTextBoxColumn67";
+            // 
+            // dataGridViewTextBoxColumn68
+            // 
+            this.dataGridViewTextBoxColumn68.HeaderText = "Паллет, шт";
+            this.dataGridViewTextBoxColumn68.Name = "dataGridViewTextBoxColumn68";
+            // 
+            // dataGridViewTextBoxColumn69
+            // 
+            this.dataGridViewTextBoxColumn69.HeaderText = "Изделий, шт";
+            this.dataGridViewTextBoxColumn69.Name = "dataGridViewTextBoxColumn69";
+            // 
+            // materialCard15
+            // 
+            this.materialCard15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard15.Controls.Add(this.materialLabel15);
+            this.materialCard15.Depth = 0;
+            this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard15.Location = new System.Drawing.Point(21, 14);
+            this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard15.Name = "materialCard15";
+            this.materialCard15.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard15.Size = new System.Drawing.Size(477, 48);
+            this.materialCard15.TabIndex = 9;
+            // 
+            // materialLabel15
+            // 
+            this.materialLabel15.AutoSize = true;
+            this.materialLabel15.Depth = 0;
+            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel15.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel15.Name = "materialLabel15";
+            this.materialLabel15.Size = new System.Drawing.Size(318, 19);
+            this.materialLabel15.TabIndex = 0;
+            this.materialLabel15.Text = "Список ассортиментов в изоляторе брака";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            // 
+            // Column25
+            // 
+            this.Column25.HeaderText = "Линия";
+            this.Column25.Name = "Column25";
+            // 
+            // Column20
+            // 
+            this.Column20.HeaderText = "Ассортимент";
+            this.Column20.Name = "Column20";
+            // 
+            // Column21
+            // 
+            this.Column21.HeaderText = "Количество";
+            this.Column21.Name = "Column21";
+            // 
+            // Column22
+            // 
+            this.Column22.HeaderText = "Талон №";
+            this.Column22.Name = "Column22";
+            // 
+            // Column23
+            // 
+            this.Column23.HeaderText = "Паллет №";
+            this.Column23.Name = "Column23";
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            // 
+            // dataGridViewTextBoxColumn54
+            // 
+            this.dataGridViewTextBoxColumn54.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            // 
+            // dataGridViewTextBoxColumn55
+            // 
+            this.dataGridViewTextBoxColumn55.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
+            // 
+            // dataGridViewTextBoxColumn57
+            // 
+            this.dataGridViewTextBoxColumn57.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
+            // 
+            // dataGridViewTextBoxColumn58
+            // 
+            this.dataGridViewTextBoxColumn58.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
+            // 
+            // dataGridViewTextBoxColumn59
+            // 
+            this.dataGridViewTextBoxColumn59.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
+            // 
+            // dataGridViewTextBoxColumn60
+            // 
+            this.dataGridViewTextBoxColumn60.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
+            // 
+            // dataGridViewTextBoxColumn61
+            // 
+            this.dataGridViewTextBoxColumn61.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
+            // 
+            // dataGridViewTextBoxColumn62
+            // 
+            this.dataGridViewTextBoxColumn62.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
+            // 
+            // dataGridViewTextBoxColumn63
+            // 
+            this.dataGridViewTextBoxColumn63.HeaderText = "Статус";
+            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
+            // 
+            // Column26
+            // 
+            this.Column26.HeaderText = "Время статуса";
+            this.Column26.Name = "Column26";
+            // 
+            // dataGridViewTextBoxColumn64
+            // 
+            this.dataGridViewTextBoxColumn64.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
+            // 
+            // dataGridViewTextBoxColumn65
+            // 
+            this.dataGridViewTextBoxColumn65.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -5507,7 +6167,7 @@ namespace WinFormsApp1
             this.tabPage5.ResumeLayout(false);
             this.materialTabControl5.ResumeLayout(false);
             this.tabPage22.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isolDataEdit)).EndInit();
             this.materialCard6.ResumeLayout(false);
             this.materialCard6.PerformLayout();
             this.tabPage23.ResumeLayout(false);
@@ -5528,6 +6188,23 @@ namespace WinFormsApp1
             ((System.ComponentModel.ISupportInitialize)(this.isolReportMonth)).EndInit();
             this.materialCard11.ResumeLayout(false);
             this.materialCard11.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.materialTabControl6.ResumeLayout(false);
+            this.tabPage26.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishData)).EndInit();
+            this.materialCard12.ResumeLayout(false);
+            this.materialCard12.PerformLayout();
+            this.tabPage27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishHistoryData)).EndInit();
+            this.materialCard13.ResumeLayout(false);
+            this.materialCard13.PerformLayout();
+            this.tabPage28.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceSecData)).EndInit();
+            this.materialCard14.ResumeLayout(false);
+            this.materialCard14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceMainData)).EndInit();
+            this.materialCard15.ResumeLayout(false);
+            this.materialCard15.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -5896,14 +6573,7 @@ namespace WinFormsApp1
         private MaterialSkin.Controls.MaterialButton isolChangeBrack;
         private MaterialSkin.Controls.MaterialButton isolAddBrack;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private System.Windows.Forms.DataGridView dataGridView6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column25;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column21;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column22;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column23;
+        private System.Windows.Forms.DataGridView isolDataEdit;
         private System.Windows.Forms.DataGridView isolHistoryData;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
@@ -5943,6 +6613,64 @@ namespace WinFormsApp1
         private MaterialSkin.Controls.MaterialCard materialCard11;
         private MaterialSkin.Controls.MaterialLabel materialLabel11;
         private MaterialSkin.Controls.MaterialComboBox isolReportLine;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column23;
+        private MaterialSkin.Controls.MaterialTabSelector materialTabSelector5;
+        private MaterialSkin.Controls.MaterialTabControl materialTabControl6;
+        private System.Windows.Forms.TabPage tabPage26;
+        private System.Windows.Forms.DataGridView notFinishData;
+        private MaterialSkin.Controls.MaterialCard materialCard12;
+        private MaterialSkin.Controls.MaterialButton notFinishAbout;
+        private MaterialSkin.Controls.MaterialButton notFinishChange;
+        private MaterialSkin.Controls.MaterialButton notFinishNew;
+        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private System.Windows.Forms.TabPage tabPage27;
+        private System.Windows.Forms.DataGridView notFinishHistoryData;
+        private MaterialSkin.Controls.MaterialCard materialCard13;
+        private MaterialSkin.Controls.MaterialComboBox notFinishHistoryMonth;
+        private MaterialSkin.Controls.MaterialComboBox notFinishHistoryYear;
+        private MaterialSkin.Controls.MaterialButton notFinishHistoryFilter;
+        private MaterialSkin.Controls.MaterialButton notFinishHistoryClear;
+        private System.Windows.Forms.TabPage tabPage28;
+        private System.Windows.Forms.DataGridView notFinishBalanceSecData;
+        private MaterialSkin.Controls.MaterialCard materialCard14;
+        private MaterialSkin.Controls.MaterialLabel materialLabel14;
+        private System.Windows.Forms.DataGridView notFinishBalanceMainData;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn67;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn68;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn69;
+        private MaterialSkin.Controls.MaterialCard materialCard15;
+        private MaterialSkin.Controls.MaterialLabel materialLabel15;
+        private MaterialSkin.Controls.MaterialLabel materialLabel12;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn49;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn53;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn54;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn57;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn58;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn59;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn60;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn61;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn62;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn63;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn64;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn65;
     }
 }
 
