@@ -31,24 +31,24 @@ namespace WinFormsApp1
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage17 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -387,6 +387,13 @@ namespace WinFormsApp1
             this.materialTabControl5 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage22 = new System.Windows.Forms.TabPage();
             this.isolDataEdit = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.materialCard6 = new MaterialSkin.Controls.MaterialCard();
             this.isolShowBrack = new MaterialSkin.Controls.MaterialButton();
             this.isolChangeBrack = new MaterialSkin.Controls.MaterialButton();
@@ -420,6 +427,7 @@ namespace WinFormsApp1
             this.materialCard8 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage25 = new System.Windows.Forms.TabPage();
+            this.isolReportLine = new MaterialSkin.Controls.MaterialComboBox();
             this.isolReportDate = new System.Windows.Forms.MonthCalendar();
             this.isolReportDay = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -434,32 +442,16 @@ namespace WinFormsApp1
             this.materialCard11 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.label110 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.isolReportLine = new MaterialSkin.Controls.MaterialComboBox();
-            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.materialTabSelector5 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl6 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage26 = new System.Windows.Forms.TabPage();
             this.notFinishData = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.materialCard12 = new MaterialSkin.Controls.MaterialCard();
             this.notFinishAbout = new MaterialSkin.Controls.MaterialButton();
             this.notFinishChange = new MaterialSkin.Controls.MaterialButton();
@@ -467,34 +459,6 @@ namespace WinFormsApp1
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage27 = new System.Windows.Forms.TabPage();
             this.notFinishHistoryData = new System.Windows.Forms.DataGridView();
-            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
-            this.notFinishHistoryMonth = new MaterialSkin.Controls.MaterialComboBox();
-            this.notFinishHistoryYear = new MaterialSkin.Controls.MaterialComboBox();
-            this.notFinishHistoryFilter = new MaterialSkin.Controls.MaterialButton();
-            this.notFinishHistoryClear = new MaterialSkin.Controls.MaterialButton();
-            this.tabPage28 = new System.Windows.Forms.TabPage();
-            this.notFinishBalanceSecData = new System.Windows.Forms.DataGridView();
-            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
-            this.notFinishBalanceMainData = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn67 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn68 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn69 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -503,19 +467,24 @@ namespace WinFormsApp1
             this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
+            this.notFinishHistoryMonth = new MaterialSkin.Controls.MaterialComboBox();
+            this.notFinishHistoryYear = new MaterialSkin.Controls.MaterialComboBox();
+            this.notFinishHistoryFilter = new MaterialSkin.Controls.MaterialButton();
+            this.notFinishHistoryClear = new MaterialSkin.Controls.MaterialButton();
+            this.tabPage28 = new System.Windows.Forms.TabPage();
+            this.notFinishBalanceSecData = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn64 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn65 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
-            this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn71 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn73 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn66 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn70 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
+            this.notFinishBalanceMainData = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn67 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn68 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn69 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.dataGridView7 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn72 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn74 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -527,6 +496,146 @@ namespace WinFormsApp1
             this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn71 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn73 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn66 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn70 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
+            this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.materialCard20 = new MaterialSkin.Controls.MaterialCard();
+            this.label132 = new System.Windows.Forms.Label();
+            this.label137 = new System.Windows.Forms.Label();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label139 = new System.Windows.Forms.Label();
+            this.label140 = new System.Windows.Forms.Label();
+            this.label141 = new System.Windows.Forms.Label();
+            this.label142 = new System.Windows.Forms.Label();
+            this.label143 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.label145 = new System.Windows.Forms.Label();
+            this.label151 = new System.Windows.Forms.Label();
+            this.label152 = new System.Windows.Forms.Label();
+            this.label153 = new System.Windows.Forms.Label();
+            this.label154 = new System.Windows.Forms.Label();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label157 = new System.Windows.Forms.Label();
+            this.label158 = new System.Windows.Forms.Label();
+            this.label160 = new System.Windows.Forms.Label();
+            this.label161 = new System.Windows.Forms.Label();
+            this.label162 = new System.Windows.Forms.Label();
+            this.label163 = new System.Windows.Forms.Label();
+            this.label164 = new System.Windows.Forms.Label();
+            this.label165 = new System.Windows.Forms.Label();
+            this.label166 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.materialCard19 = new MaterialSkin.Controls.MaterialCard();
+            this.label171 = new System.Windows.Forms.Label();
+            this.label172 = new System.Windows.Forms.Label();
+            this.label169 = new System.Windows.Forms.Label();
+            this.label170 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label114 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.label117 = new System.Windows.Forms.Label();
+            this.label118 = new System.Windows.Forms.Label();
+            this.label119 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.label121 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label125 = new System.Windows.Forms.Label();
+            this.label126 = new System.Windows.Forms.Label();
+            this.label127 = new System.Windows.Forms.Label();
+            this.label128 = new System.Windows.Forms.Label();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.materialCard18 = new MaterialSkin.Controls.MaterialCard();
+            this.label167 = new System.Windows.Forms.Label();
+            this.label168 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.controlMashineChart = new LiveChartsCore.SkiaSharpView.WinForms.CartesianChart();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.materialCard1.SuspendLayout();
@@ -573,7 +682,6 @@ namespace WinFormsApp1
             ((System.ComponentModel.ISupportInitialize)(this.isolReportMonth)).BeginInit();
             this.materialCard11.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            this.tabPage7.SuspendLayout();
             this.materialTabControl6.SuspendLayout();
             this.tabPage26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.notFinishData)).BeginInit();
@@ -586,10 +694,15 @@ namespace WinFormsApp1
             this.materialCard14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceMainData)).BeginInit();
             this.materialCard15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            this.materialCard16.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.materialCard17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            this.materialCard16.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.materialCard20.SuspendLayout();
+            this.materialCard19.SuspendLayout();
+            this.materialCard18.SuspendLayout();
             this.SuspendLayout();
             // 
             // imageList1
@@ -628,17 +741,17 @@ namespace WinFormsApp1
             // 
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -907,7 +1020,6 @@ namespace WinFormsApp1
             this.materialTabControl1.Controls.Add(this.tabPage7);
             this.materialTabControl1.Controls.Add(this.tabPage8);
             this.materialTabControl1.Controls.Add(this.tabPage9);
-            this.materialTabControl1.Controls.Add(this.tabPage10);
             this.materialTabControl1.Controls.Add(this.tabPage11);
             this.materialTabControl1.Controls.Add(this.tabPage12);
             this.materialTabControl1.Controls.Add(this.tabPage13);
@@ -1016,17 +1128,17 @@ namespace WinFormsApp1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle42.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle42.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -2170,17 +2282,17 @@ namespace WinFormsApp1
             // 
             this.dataGridView3.AllowUserToAddRows = false;
             this.dataGridView3.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn11,
@@ -4286,28 +4398,28 @@ namespace WinFormsApp1
             // dataGridView4
             // 
             this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle45.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle45.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column11,
             this.Column12,
             this.Column13,
             this.Column14});
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle46.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
@@ -4349,14 +4461,14 @@ namespace WinFormsApp1
             // dataGridView5
             // 
             this.dataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column15,
@@ -4364,14 +4476,14 @@ namespace WinFormsApp1
             this.Column17,
             this.Column18,
             this.Column19});
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView5.Location = new System.Drawing.Point(3, 3);
             this.dataGridView5.Name = "dataGridView5";
@@ -4845,6 +4957,41 @@ namespace WinFormsApp1
             this.isolDataEdit.Size = new System.Drawing.Size(1099, 503);
             this.isolDataEdit.TabIndex = 8;
             // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            // 
+            // Column25
+            // 
+            this.Column25.HeaderText = "Линия";
+            this.Column25.Name = "Column25";
+            // 
+            // Column20
+            // 
+            this.Column20.HeaderText = "Ассортимент";
+            this.Column20.Name = "Column20";
+            // 
+            // Column21
+            // 
+            this.Column21.HeaderText = "Количество";
+            this.Column21.Name = "Column21";
+            // 
+            // Column22
+            // 
+            this.Column22.HeaderText = "Талон №";
+            this.Column22.Name = "Column22";
+            // 
+            // Column23
+            // 
+            this.Column23.HeaderText = "Паллет №";
+            this.Column23.Name = "Column23";
+            // 
             // materialCard6
             // 
             this.materialCard6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -5268,6 +5415,33 @@ namespace WinFormsApp1
             this.tabPage25.Text = "Отчет по бракам";
             this.tabPage25.UseVisualStyleBackColor = true;
             // 
+            // isolReportLine
+            // 
+            this.isolReportLine.AutoResize = false;
+            this.isolReportLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.isolReportLine.Depth = 0;
+            this.isolReportLine.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.isolReportLine.DropDownHeight = 174;
+            this.isolReportLine.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.isolReportLine.DropDownWidth = 121;
+            this.isolReportLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.isolReportLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.isolReportLine.FormattingEnabled = true;
+            this.isolReportLine.Hint = "Линия";
+            this.isolReportLine.IntegralHeight = false;
+            this.isolReportLine.ItemHeight = 43;
+            this.isolReportLine.Items.AddRange(new object[] {
+            "Линия 1",
+            "Линия 2",
+            "Линия 3"});
+            this.isolReportLine.Location = new System.Drawing.Point(46, 16);
+            this.isolReportLine.MaxDropDownItems = 4;
+            this.isolReportLine.MouseState = MaterialSkin.MouseState.OUT;
+            this.isolReportLine.Name = "isolReportLine";
+            this.isolReportLine.Size = new System.Drawing.Size(229, 49);
+            this.isolReportLine.StartIndex = 0;
+            this.isolReportLine.TabIndex = 18;
+            // 
             // isolReportDate
             // 
             this.isolReportDate.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -5397,237 +5571,6 @@ namespace WinFormsApp1
             this.tabPage6.Text = "Незавершенное производство";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
-            // 
-            this.tabPage7.Controls.Add(this.dataGridView7);
-            this.tabPage7.Controls.Add(this.materialCard17);
-            this.tabPage7.Controls.Add(this.dataGridView6);
-            this.tabPage7.Controls.Add(this.materialCard16);
-            this.tabPage7.ImageKey = "system_information_30px.png";
-            this.tabPage7.Location = new System.Drawing.Point(4, 74);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Перепаковка";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.ImageKey = "program_30px.png";
-            this.tabPage8.Location = new System.Drawing.Point(4, 74);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Контрольные машины";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.ImageKey = "fan_speed_30px.png";
-            this.tabPage9.Location = new System.Drawing.Point(4, 74);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Принудительный сдув";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.ImageKey = "playlist_30px.png";
-            this.tabPage10.Location = new System.Drawing.Point(4, 74);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Модули TG2";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.ImageKey = "alarm_30px.png";
-            this.tabPage11.Location = new System.Drawing.Point(4, 74);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage11.TabIndex = 10;
-            this.tabPage11.Text = "Предупреждения";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.ImageKey = "checklist_30px.png";
-            this.tabPage12.Location = new System.Drawing.Point(4, 74);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage12.TabIndex = 11;
-            this.tabPage12.Text = "Номенклатура";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.ImageKey = "heart_monitor_30px.png";
-            this.tabPage13.Location = new System.Drawing.Point(4, 74);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage13.TabIndex = 12;
-            this.tabPage13.Text = "Мониторинг";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.ImageKey = "logout_30px.png";
-            this.tabPage14.Location = new System.Drawing.Point(4, 74);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(1228, 868);
-            this.tabPage14.TabIndex = 13;
-            this.tabPage14.Text = "Выход";
-            this.tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // label110
-            // 
-            this.label110.Location = new System.Drawing.Point(0, 0);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(100, 23);
-            this.label110.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(277, 54);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Линия 1";
-            // 
-            // isolReportLine
-            // 
-            this.isolReportLine.AutoResize = false;
-            this.isolReportLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.isolReportLine.Depth = 0;
-            this.isolReportLine.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.isolReportLine.DropDownHeight = 174;
-            this.isolReportLine.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.isolReportLine.DropDownWidth = 121;
-            this.isolReportLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.isolReportLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.isolReportLine.FormattingEnabled = true;
-            this.isolReportLine.Hint = "Линия";
-            this.isolReportLine.IntegralHeight = false;
-            this.isolReportLine.ItemHeight = 43;
-            this.isolReportLine.Items.AddRange(new object[] {
-            "Линия 1",
-            "Линия 2",
-            "Линия 3"});
-            this.isolReportLine.Location = new System.Drawing.Point(46, 16);
-            this.isolReportLine.MaxDropDownItems = 4;
-            this.isolReportLine.MouseState = MaterialSkin.MouseState.OUT;
-            this.isolReportLine.Name = "isolReportLine";
-            this.isolReportLine.Size = new System.Drawing.Size(229, 49);
-            this.isolReportLine.StartIndex = 0;
-            this.isolReportLine.TabIndex = 18;
-            // 
-            // materialLabel12
-            // 
-            this.materialLabel12.AutoSize = true;
-            this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel12.Location = new System.Drawing.Point(18, 13);
-            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel12.Name = "materialLabel12";
-            this.materialLabel12.Size = new System.Drawing.Size(444, 19);
-            this.materialLabel12.TabIndex = 0;
-            // 
-            // materialButton3
-            // 
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(722, 6);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(89, 36);
-            this.materialButton3.TabIndex = 1;
-            this.materialButton3.Text = "Добавть";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
-            // 
-            // materialButton2
-            // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(837, 6);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(101, 36);
-            this.materialButton2.TabIndex = 1;
-            this.materialButton2.Text = "Изменить";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
-            // 
-            // materialButton1
-            // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(963, 6);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(110, 36);
-            this.materialButton1.TabIndex = 1;
-            this.materialButton1.Text = "Подробнее";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.HeaderText = "Номер паллета";
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.HeaderText = "Номер талона";
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.HeaderText = "Количество";
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.HeaderText = "Ассортимент";
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.HeaderText = "Линия";
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            // 
-            // dataGridViewTextBoxColumn44
-            // 
-            this.dataGridViewTextBoxColumn44.HeaderText = "Смена";
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            // 
-            // dataGridViewTextBoxColumn43
-            // 
-            this.dataGridViewTextBoxColumn43.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            // 
             // materialTabSelector5
             // 
             this.materialTabSelector5.BaseTabControl = this.materialTabControl6;
@@ -5670,14 +5613,14 @@ namespace WinFormsApp1
             // notFinishData
             // 
             this.notFinishData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle49.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle49.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.notFinishData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.notFinishData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.notFinishData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.notFinishData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn50,
@@ -5686,19 +5629,49 @@ namespace WinFormsApp1
             this.dataGridViewTextBoxColumn53,
             this.dataGridViewTextBoxColumn54,
             this.dataGridViewTextBoxColumn55});
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle50.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.notFinishData.DefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.notFinishData.DefaultCellStyle = dataGridViewCellStyle12;
             this.notFinishData.Location = new System.Drawing.Point(24, 81);
             this.notFinishData.Name = "notFinishData";
             this.notFinishData.RowTemplate.Height = 25;
             this.notFinishData.Size = new System.Drawing.Size(1099, 503);
             this.notFinishData.TabIndex = 8;
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            // 
+            // dataGridViewTextBoxColumn54
+            // 
+            this.dataGridViewTextBoxColumn54.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            // 
+            // dataGridViewTextBoxColumn55
+            // 
+            this.dataGridViewTextBoxColumn55.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
             // 
             // materialCard12
             // 
@@ -5804,14 +5777,14 @@ namespace WinFormsApp1
             // notFinishHistoryData
             // 
             this.notFinishHistoryData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle51.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.notFinishHistoryData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.notFinishHistoryData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.notFinishHistoryData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.notFinishHistoryData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn57,
@@ -5822,19 +5795,59 @@ namespace WinFormsApp1
             this.dataGridViewTextBoxColumn62,
             this.dataGridViewTextBoxColumn63,
             this.Column26});
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle52.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.notFinishHistoryData.DefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.notFinishHistoryData.DefaultCellStyle = dataGridViewCellStyle14;
             this.notFinishHistoryData.Location = new System.Drawing.Point(24, 99);
             this.notFinishHistoryData.Name = "notFinishHistoryData";
             this.notFinishHistoryData.RowTemplate.Height = 25;
             this.notFinishHistoryData.Size = new System.Drawing.Size(1099, 503);
             this.notFinishHistoryData.TabIndex = 10;
+            // 
+            // dataGridViewTextBoxColumn57
+            // 
+            this.dataGridViewTextBoxColumn57.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
+            // 
+            // dataGridViewTextBoxColumn58
+            // 
+            this.dataGridViewTextBoxColumn58.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
+            // 
+            // dataGridViewTextBoxColumn59
+            // 
+            this.dataGridViewTextBoxColumn59.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
+            // 
+            // dataGridViewTextBoxColumn60
+            // 
+            this.dataGridViewTextBoxColumn60.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
+            // 
+            // dataGridViewTextBoxColumn61
+            // 
+            this.dataGridViewTextBoxColumn61.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
+            // 
+            // dataGridViewTextBoxColumn62
+            // 
+            this.dataGridViewTextBoxColumn62.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
+            // 
+            // dataGridViewTextBoxColumn63
+            // 
+            this.dataGridViewTextBoxColumn63.HeaderText = "Статус";
+            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
+            // 
+            // Column26
+            // 
+            this.Column26.HeaderText = "Время статуса";
+            this.Column26.Name = "Column26";
             // 
             // materialCard13
             // 
@@ -5978,14 +5991,14 @@ namespace WinFormsApp1
             // notFinishBalanceSecData
             // 
             this.notFinishBalanceSecData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.notFinishBalanceSecData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.notFinishBalanceSecData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.notFinishBalanceSecData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.notFinishBalanceSecData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn64,
@@ -5995,6 +6008,16 @@ namespace WinFormsApp1
             this.notFinishBalanceSecData.RowTemplate.Height = 25;
             this.notFinishBalanceSecData.Size = new System.Drawing.Size(477, 680);
             this.notFinishBalanceSecData.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn64
+            // 
+            this.dataGridViewTextBoxColumn64.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
+            // 
+            // dataGridViewTextBoxColumn65
+            // 
+            this.dataGridViewTextBoxColumn65.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
             // 
             // materialCard14
             // 
@@ -6025,14 +6048,14 @@ namespace WinFormsApp1
             // notFinishBalanceMainData
             // 
             this.notFinishBalanceMainData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.notFinishBalanceMainData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.notFinishBalanceMainData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.notFinishBalanceMainData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.notFinishBalanceMainData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn67,
@@ -6085,268 +6108,31 @@ namespace WinFormsApp1
             this.materialLabel15.TabIndex = 0;
             this.materialLabel15.Text = "Список ассортиментов в изоляторе брака";
             // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.HeaderText = "Смена";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            // 
-            // Column25
-            // 
-            this.Column25.HeaderText = "Линия";
-            this.Column25.Name = "Column25";
-            // 
-            // Column20
-            // 
-            this.Column20.HeaderText = "Ассортимент";
-            this.Column20.Name = "Column20";
-            // 
-            // Column21
-            // 
-            this.Column21.HeaderText = "Количество";
-            this.Column21.Name = "Column21";
-            // 
-            // Column22
-            // 
-            this.Column22.HeaderText = "Талон №";
-            this.Column22.Name = "Column22";
-            // 
-            // Column23
-            // 
-            this.Column23.HeaderText = "Паллет №";
-            this.Column23.Name = "Column23";
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            // 
-            // dataGridViewTextBoxColumn51
-            // 
-            this.dataGridViewTextBoxColumn51.HeaderText = "Смена";
-            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-            // 
-            // dataGridViewTextBoxColumn52
-            // 
-            this.dataGridViewTextBoxColumn52.HeaderText = "Линия";
-            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            // 
-            // dataGridViewTextBoxColumn53
-            // 
-            this.dataGridViewTextBoxColumn53.HeaderText = "Ассортимент";
-            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-            // 
-            // dataGridViewTextBoxColumn54
-            // 
-            this.dataGridViewTextBoxColumn54.HeaderText = "Количество";
-            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
-            // 
-            // dataGridViewTextBoxColumn55
-            // 
-            this.dataGridViewTextBoxColumn55.HeaderText = "Талон №";
-            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
-            // 
-            // dataGridViewTextBoxColumn57
-            // 
-            this.dataGridViewTextBoxColumn57.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
-            // 
-            // dataGridViewTextBoxColumn58
-            // 
-            this.dataGridViewTextBoxColumn58.HeaderText = "Смена";
-            this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
-            // 
-            // dataGridViewTextBoxColumn59
-            // 
-            this.dataGridViewTextBoxColumn59.HeaderText = "Линия";
-            this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
-            // 
-            // dataGridViewTextBoxColumn60
-            // 
-            this.dataGridViewTextBoxColumn60.HeaderText = "Ассортимент";
-            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
-            // 
-            // dataGridViewTextBoxColumn61
-            // 
-            this.dataGridViewTextBoxColumn61.HeaderText = "Количество";
-            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
-            // 
-            // dataGridViewTextBoxColumn62
-            // 
-            this.dataGridViewTextBoxColumn62.HeaderText = "Талон №";
-            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
-            // 
-            // dataGridViewTextBoxColumn63
-            // 
-            this.dataGridViewTextBoxColumn63.HeaderText = "Статус";
-            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
-            // 
-            // Column26
-            // 
-            this.Column26.HeaderText = "Время статуса";
-            this.Column26.Name = "Column26";
-            // 
-            // dataGridViewTextBoxColumn64
-            // 
-            this.dataGridViewTextBoxColumn64.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
-            // 
-            // dataGridViewTextBoxColumn65
-            // 
-            this.dataGridViewTextBoxColumn65.HeaderText = "Талон №";
-            this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
-            // 
-            // dataGridView6
-            // 
-            this.dataGridView6.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn56,
-            this.dataGridViewTextBoxColumn71,
-            this.dataGridViewTextBoxColumn73,
-            this.dataGridViewTextBoxColumn66,
-            this.dataGridViewTextBoxColumn70});
-            this.dataGridView6.Location = new System.Drawing.Point(10, 78);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.RowTemplate.Height = 25;
-            this.dataGridView6.Size = new System.Drawing.Size(1099, 322);
-            this.dataGridView6.TabIndex = 10;
-            // 
-            // materialCard16
-            // 
-            this.materialCard16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard16.Controls.Add(this.materialButton4);
-            this.materialCard16.Controls.Add(this.materialButton5);
-            this.materialCard16.Controls.Add(this.materialButton6);
-            this.materialCard16.Controls.Add(this.materialLabel16);
-            this.materialCard16.Depth = 0;
-            this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard16.Location = new System.Drawing.Point(10, 14);
-            this.materialCard16.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard16.Name = "materialCard16";
-            this.materialCard16.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard16.Size = new System.Drawing.Size(1099, 48);
-            this.materialCard16.TabIndex = 9;
-            // 
-            // materialButton4
-            // 
-            this.materialButton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton4.Depth = 0;
-            this.materialButton4.HighEmphasis = true;
-            this.materialButton4.Icon = null;
-            this.materialButton4.Location = new System.Drawing.Point(963, 6);
-            this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton4.Name = "materialButton4";
-            this.materialButton4.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton4.Size = new System.Drawing.Size(110, 36);
-            this.materialButton4.TabIndex = 1;
-            this.materialButton4.Text = "Подробнее";
-            this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton4.UseAccentColor = false;
-            this.materialButton4.UseVisualStyleBackColor = true;
-            this.materialButton4.Click += new System.EventHandler(this.materialButton4_Click_1);
-            // 
-            // materialButton5
-            // 
-            this.materialButton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton5.Depth = 0;
-            this.materialButton5.HighEmphasis = true;
-            this.materialButton5.Icon = null;
-            this.materialButton5.Location = new System.Drawing.Point(837, 6);
-            this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton5.Name = "materialButton5";
-            this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton5.Size = new System.Drawing.Size(96, 36);
-            this.materialButton5.TabIndex = 1;
-            this.materialButton5.Text = "Отказать";
-            this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton5.UseAccentColor = false;
-            this.materialButton5.UseVisualStyleBackColor = true;
-            // 
-            // materialButton6
-            // 
-            this.materialButton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton6.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton6.Depth = 0;
-            this.materialButton6.HighEmphasis = true;
-            this.materialButton6.Icon = null;
-            this.materialButton6.Location = new System.Drawing.Point(722, 6);
-            this.materialButton6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton6.Name = "materialButton6";
-            this.materialButton6.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton6.Size = new System.Drawing.Size(110, 36);
-            this.materialButton6.TabIndex = 1;
-            this.materialButton6.Text = "Разрешить";
-            this.materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
-            this.materialButton6.UseAccentColor = false;
-            this.materialButton6.UseVisualStyleBackColor = true;
-            // 
-            // materialLabel16
-            // 
-            this.materialLabel16.AutoSize = true;
-            this.materialLabel16.Depth = 0;
-            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel16.Location = new System.Drawing.Point(18, 13);
-            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel16.Name = "materialLabel16";
-            this.materialLabel16.Size = new System.Drawing.Size(208, 19);
-            this.materialLabel16.TabIndex = 0;
-            this.materialLabel16.Text = "Запросы от мастера смены";
-            // 
-            // dataGridViewTextBoxColumn56
-            // 
-            this.dataGridViewTextBoxColumn56.HeaderText = "Время";
-            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
-            // 
-            // dataGridViewTextBoxColumn71
-            // 
-            this.dataGridViewTextBoxColumn71.HeaderText = "Ассортимент";
-            this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
-            // 
-            // dataGridViewTextBoxColumn73
-            // 
-            this.dataGridViewTextBoxColumn73.HeaderText = "Талон №";
-            this.dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
-            // 
-            // dataGridViewTextBoxColumn66
-            // 
-            this.dataGridViewTextBoxColumn66.HeaderText = "Паллет №";
-            this.dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
-            // 
-            // dataGridViewTextBoxColumn70
-            // 
-            this.dataGridViewTextBoxColumn70.HeaderText = "Статус";
-            this.dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.dataGridView7);
+            this.tabPage7.Controls.Add(this.materialCard17);
+            this.tabPage7.Controls.Add(this.dataGridView6);
+            this.tabPage7.Controls.Add(this.materialCard16);
+            this.tabPage7.ImageKey = "system_information_30px.png";
+            this.tabPage7.Location = new System.Drawing.Point(4, 74);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Перепаковка";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // dataGridView7
             // 
             this.dataGridView7.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView7.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView7.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn72,
@@ -6472,6 +6258,1699 @@ namespace WinFormsApp1
             this.materialLabel17.TabIndex = 0;
             this.materialLabel17.Text = "Ожидают перепаковки";
             // 
+            // dataGridView6
+            // 
+            this.dataGridView6.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn56,
+            this.dataGridViewTextBoxColumn71,
+            this.dataGridViewTextBoxColumn73,
+            this.dataGridViewTextBoxColumn66,
+            this.dataGridViewTextBoxColumn70});
+            this.dataGridView6.Location = new System.Drawing.Point(10, 78);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.RowTemplate.Height = 25;
+            this.dataGridView6.Size = new System.Drawing.Size(1099, 322);
+            this.dataGridView6.TabIndex = 10;
+            // 
+            // dataGridViewTextBoxColumn56
+            // 
+            this.dataGridViewTextBoxColumn56.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
+            // 
+            // dataGridViewTextBoxColumn71
+            // 
+            this.dataGridViewTextBoxColumn71.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
+            // 
+            // dataGridViewTextBoxColumn73
+            // 
+            this.dataGridViewTextBoxColumn73.HeaderText = "Талон №";
+            this.dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
+            // 
+            // dataGridViewTextBoxColumn66
+            // 
+            this.dataGridViewTextBoxColumn66.HeaderText = "Паллет №";
+            this.dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
+            // 
+            // dataGridViewTextBoxColumn70
+            // 
+            this.dataGridViewTextBoxColumn70.HeaderText = "Статус";
+            this.dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
+            // 
+            // materialCard16
+            // 
+            this.materialCard16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard16.Controls.Add(this.materialButton4);
+            this.materialCard16.Controls.Add(this.materialButton5);
+            this.materialCard16.Controls.Add(this.materialButton6);
+            this.materialCard16.Controls.Add(this.materialLabel16);
+            this.materialCard16.Depth = 0;
+            this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard16.Location = new System.Drawing.Point(10, 14);
+            this.materialCard16.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard16.Name = "materialCard16";
+            this.materialCard16.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard16.Size = new System.Drawing.Size(1099, 48);
+            this.materialCard16.TabIndex = 9;
+            // 
+            // materialButton4
+            // 
+            this.materialButton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton4.Depth = 0;
+            this.materialButton4.HighEmphasis = true;
+            this.materialButton4.Icon = null;
+            this.materialButton4.Location = new System.Drawing.Point(963, 6);
+            this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton4.Name = "materialButton4";
+            this.materialButton4.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton4.Size = new System.Drawing.Size(110, 36);
+            this.materialButton4.TabIndex = 1;
+            this.materialButton4.Text = "Подробнее";
+            this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton4.UseAccentColor = false;
+            this.materialButton4.UseVisualStyleBackColor = true;
+            this.materialButton4.Click += new System.EventHandler(this.materialButton4_Click_1);
+            // 
+            // materialButton5
+            // 
+            this.materialButton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton5.Depth = 0;
+            this.materialButton5.HighEmphasis = true;
+            this.materialButton5.Icon = null;
+            this.materialButton5.Location = new System.Drawing.Point(837, 6);
+            this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton5.Name = "materialButton5";
+            this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton5.Size = new System.Drawing.Size(96, 36);
+            this.materialButton5.TabIndex = 1;
+            this.materialButton5.Text = "Отказать";
+            this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton5.UseAccentColor = false;
+            this.materialButton5.UseVisualStyleBackColor = true;
+            // 
+            // materialButton6
+            // 
+            this.materialButton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton6.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton6.Depth = 0;
+            this.materialButton6.HighEmphasis = true;
+            this.materialButton6.Icon = null;
+            this.materialButton6.Location = new System.Drawing.Point(722, 6);
+            this.materialButton6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton6.Name = "materialButton6";
+            this.materialButton6.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton6.Size = new System.Drawing.Size(110, 36);
+            this.materialButton6.TabIndex = 1;
+            this.materialButton6.Text = "Разрешить";
+            this.materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton6.UseAccentColor = false;
+            this.materialButton6.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel16
+            // 
+            this.materialLabel16.AutoSize = true;
+            this.materialLabel16.Depth = 0;
+            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel16.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel16.Name = "materialLabel16";
+            this.materialLabel16.Size = new System.Drawing.Size(208, 19);
+            this.materialLabel16.TabIndex = 0;
+            this.materialLabel16.Text = "Запросы от мастера смены";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.materialCard20);
+            this.tabPage8.Controls.Add(this.materialCard19);
+            this.tabPage8.Controls.Add(this.materialCard18);
+            this.tabPage8.Controls.Add(this.controlMashineChart);
+            this.tabPage8.ImageKey = "program_30px.png";
+            this.tabPage8.Location = new System.Drawing.Point(4, 74);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Контрольные машины";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
+            // 
+            // materialCard20
+            // 
+            this.materialCard20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard20.Controls.Add(this.label132);
+            this.materialCard20.Controls.Add(this.label137);
+            this.materialCard20.Controls.Add(this.label138);
+            this.materialCard20.Controls.Add(this.label139);
+            this.materialCard20.Controls.Add(this.label140);
+            this.materialCard20.Controls.Add(this.label141);
+            this.materialCard20.Controls.Add(this.label142);
+            this.materialCard20.Controls.Add(this.label143);
+            this.materialCard20.Controls.Add(this.label144);
+            this.materialCard20.Controls.Add(this.label145);
+            this.materialCard20.Controls.Add(this.label151);
+            this.materialCard20.Controls.Add(this.label152);
+            this.materialCard20.Controls.Add(this.label153);
+            this.materialCard20.Controls.Add(this.label154);
+            this.materialCard20.Controls.Add(this.label155);
+            this.materialCard20.Controls.Add(this.label156);
+            this.materialCard20.Controls.Add(this.label157);
+            this.materialCard20.Controls.Add(this.label158);
+            this.materialCard20.Controls.Add(this.label160);
+            this.materialCard20.Controls.Add(this.label161);
+            this.materialCard20.Controls.Add(this.label162);
+            this.materialCard20.Controls.Add(this.label163);
+            this.materialCard20.Controls.Add(this.label164);
+            this.materialCard20.Controls.Add(this.label165);
+            this.materialCard20.Controls.Add(this.label166);
+            this.materialCard20.Controls.Add(this.label16);
+            this.materialCard20.Depth = 0;
+            this.materialCard20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard20.Location = new System.Drawing.Point(799, 9);
+            this.materialCard20.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard20.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard20.Name = "materialCard20";
+            this.materialCard20.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard20.Size = new System.Drawing.Size(365, 320);
+            this.materialCard20.TabIndex = 1;
+            // 
+            // label132
+            // 
+            this.label132.BackColor = System.Drawing.Color.Honeydew;
+            this.label132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label132.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label132.Location = new System.Drawing.Point(304, 81);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(61, 235);
+            this.label132.TabIndex = 105;
+            this.label132.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label137
+            // 
+            this.label137.BackColor = System.Drawing.Color.Honeydew;
+            this.label137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label137.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label137.Location = new System.Drawing.Point(246, 289);
+            this.label137.Name = "label137";
+            this.label137.Size = new System.Drawing.Size(59, 27);
+            this.label137.TabIndex = 100;
+            this.label137.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label138
+            // 
+            this.label138.BackColor = System.Drawing.Color.Honeydew;
+            this.label138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label138.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label138.Location = new System.Drawing.Point(246, 263);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(59, 27);
+            this.label138.TabIndex = 99;
+            this.label138.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label139
+            // 
+            this.label139.BackColor = System.Drawing.Color.Honeydew;
+            this.label139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label139.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label139.Location = new System.Drawing.Point(246, 237);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(59, 27);
+            this.label139.TabIndex = 98;
+            this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label140
+            // 
+            this.label140.BackColor = System.Drawing.Color.Honeydew;
+            this.label140.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label140.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label140.Location = new System.Drawing.Point(246, 211);
+            this.label140.Name = "label140";
+            this.label140.Size = new System.Drawing.Size(59, 27);
+            this.label140.TabIndex = 97;
+            this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label141
+            // 
+            this.label141.BackColor = System.Drawing.Color.Honeydew;
+            this.label141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label141.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label141.Location = new System.Drawing.Point(246, 185);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(59, 27);
+            this.label141.TabIndex = 96;
+            this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label142
+            // 
+            this.label142.BackColor = System.Drawing.Color.Honeydew;
+            this.label142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label142.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label142.Location = new System.Drawing.Point(246, 159);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(59, 27);
+            this.label142.TabIndex = 95;
+            this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label143
+            // 
+            this.label143.BackColor = System.Drawing.Color.Honeydew;
+            this.label143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label143.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label143.Location = new System.Drawing.Point(246, 133);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(59, 27);
+            this.label143.TabIndex = 94;
+            this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label144
+            // 
+            this.label144.BackColor = System.Drawing.Color.Honeydew;
+            this.label144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label144.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label144.Location = new System.Drawing.Point(246, 107);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(59, 27);
+            this.label144.TabIndex = 93;
+            this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label145
+            // 
+            this.label145.BackColor = System.Drawing.Color.Honeydew;
+            this.label145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label145.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label145.Location = new System.Drawing.Point(246, 81);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(59, 27);
+            this.label145.TabIndex = 92;
+            this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label151
+            // 
+            this.label151.BackColor = System.Drawing.Color.Honeydew;
+            this.label151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label151.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label151.Location = new System.Drawing.Point(0, 289);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(247, 27);
+            this.label151.TabIndex = 86;
+            this.label151.Text = "Принудительный сдув";
+            this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label152
+            // 
+            this.label152.BackColor = System.Drawing.Color.Honeydew;
+            this.label152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label152.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label152.Location = new System.Drawing.Point(0, 263);
+            this.label152.Name = "label152";
+            this.label152.Size = new System.Drawing.Size(247, 27);
+            this.label152.TabIndex = 85;
+            this.label152.Text = "[024/14] Посечка на дне";
+            this.label152.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label153
+            // 
+            this.label153.BackColor = System.Drawing.Color.Honeydew;
+            this.label153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label153.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label153.Location = new System.Drawing.Point(0, 237);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(247, 27);
+            this.label153.TabIndex = 84;
+            this.label153.Text = "[024/5] Посечка на торце венчика";
+            this.label153.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label154
+            // 
+            this.label154.BackColor = System.Drawing.Color.Honeydew;
+            this.label154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label154.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label154.Location = new System.Drawing.Point(0, 211);
+            this.label154.Name = "label154";
+            this.label154.Size = new System.Drawing.Size(247, 27);
+            this.label154.TabIndex = 83;
+            this.label154.Text = "[024/3] Посечка  на укупорочном кольце";
+            this.label154.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label155
+            // 
+            this.label155.BackColor = System.Drawing.Color.Honeydew;
+            this.label155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label155.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label155.Location = new System.Drawing.Point(0, 185);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(247, 27);
+            this.label155.TabIndex = 82;
+            this.label155.Text = "[024/1] Посечка на венчике";
+            this.label155.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label156
+            // 
+            this.label156.BackColor = System.Drawing.Color.Honeydew;
+            this.label156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label156.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label156.Location = new System.Drawing.Point(0, 159);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(247, 27);
+            this.label156.TabIndex = 81;
+            this.label156.Text = "[220] толщина стенки по фидеру";
+            this.label156.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label157
+            // 
+            this.label157.BackColor = System.Drawing.Color.Honeydew;
+            this.label157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label157.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label157.Location = new System.Drawing.Point(0, 107);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(247, 27);
+            this.label157.TabIndex = 80;
+            this.label157.Text = "[414] Наружный диаметр  венчика";
+            this.label157.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label158
+            // 
+            this.label158.BackColor = System.Drawing.Color.Honeydew;
+            this.label158.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label158.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label158.Location = new System.Drawing.Point(0, 133);
+            this.label158.Name = "label158";
+            this.label158.Size = new System.Drawing.Size(247, 27);
+            this.label158.TabIndex = 79;
+            this.label158.Text = "[219] Толщина стенки в плечах";
+            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label160
+            // 
+            this.label160.BackColor = System.Drawing.Color.Honeydew;
+            this.label160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label160.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label160.Location = new System.Drawing.Point(0, 81);
+            this.label160.Name = "label160";
+            this.label160.Size = new System.Drawing.Size(247, 27);
+            this.label160.TabIndex = 77;
+            this.label160.Text = "[213] Внутренний диаметр венчика";
+            this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label161
+            // 
+            this.label161.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label161.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label161.Location = new System.Drawing.Point(304, 55);
+            this.label161.Name = "label161";
+            this.label161.Size = new System.Drawing.Size(61, 27);
+            this.label161.TabIndex = 76;
+            this.label161.Text = "%(ср)";
+            this.label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label162
+            // 
+            this.label162.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label162.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label162.Location = new System.Drawing.Point(246, 55);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(59, 27);
+            this.label162.TabIndex = 75;
+            this.label162.Text = "шт";
+            this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label163
+            // 
+            this.label163.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label163.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label163.Location = new System.Drawing.Point(0, 55);
+            this.label163.Name = "label163";
+            this.label163.Size = new System.Drawing.Size(247, 27);
+            this.label163.TabIndex = 74;
+            this.label163.Text = "Браки";
+            this.label163.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label164
+            // 
+            this.label164.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label164.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label164.Location = new System.Drawing.Point(304, 29);
+            this.label164.Name = "label164";
+            this.label164.Size = new System.Drawing.Size(61, 27);
+            this.label164.TabIndex = 73;
+            this.label164.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label165
+            // 
+            this.label165.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label165.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label165.Location = new System.Drawing.Point(246, 29);
+            this.label165.Name = "label165";
+            this.label165.Size = new System.Drawing.Size(59, 27);
+            this.label165.TabIndex = 72;
+            this.label165.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label166
+            // 
+            this.label166.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label166.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label166.Location = new System.Drawing.Point(0, 29);
+            this.label166.Name = "label166";
+            this.label166.Size = new System.Drawing.Size(247, 27);
+            this.label166.TabIndex = 71;
+            this.label166.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label16.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(0, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(365, 33);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Роторная инспекционная машина (М1, М4)";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialCard19
+            // 
+            this.materialCard19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard19.Controls.Add(this.label171);
+            this.materialCard19.Controls.Add(this.label172);
+            this.materialCard19.Controls.Add(this.label169);
+            this.materialCard19.Controls.Add(this.label170);
+            this.materialCard19.Controls.Add(this.label82);
+            this.materialCard19.Controls.Add(this.label84);
+            this.materialCard19.Controls.Add(this.label85);
+            this.materialCard19.Controls.Add(this.label87);
+            this.materialCard19.Controls.Add(this.label88);
+            this.materialCard19.Controls.Add(this.label90);
+            this.materialCard19.Controls.Add(this.label91);
+            this.materialCard19.Controls.Add(this.label93);
+            this.materialCard19.Controls.Add(this.label94);
+            this.materialCard19.Controls.Add(this.label96);
+            this.materialCard19.Controls.Add(this.label97);
+            this.materialCard19.Controls.Add(this.label99);
+            this.materialCard19.Controls.Add(this.label100);
+            this.materialCard19.Controls.Add(this.label102);
+            this.materialCard19.Controls.Add(this.label103);
+            this.materialCard19.Controls.Add(this.label105);
+            this.materialCard19.Controls.Add(this.label106);
+            this.materialCard19.Controls.Add(this.label108);
+            this.materialCard19.Controls.Add(this.label113);
+            this.materialCard19.Controls.Add(this.label114);
+            this.materialCard19.Controls.Add(this.label115);
+            this.materialCard19.Controls.Add(this.label116);
+            this.materialCard19.Controls.Add(this.label117);
+            this.materialCard19.Controls.Add(this.label118);
+            this.materialCard19.Controls.Add(this.label119);
+            this.materialCard19.Controls.Add(this.label120);
+            this.materialCard19.Controls.Add(this.label121);
+            this.materialCard19.Controls.Add(this.label122);
+            this.materialCard19.Controls.Add(this.label123);
+            this.materialCard19.Controls.Add(this.label124);
+            this.materialCard19.Controls.Add(this.label125);
+            this.materialCard19.Controls.Add(this.label126);
+            this.materialCard19.Controls.Add(this.label127);
+            this.materialCard19.Controls.Add(this.label128);
+            this.materialCard19.Controls.Add(this.label129);
+            this.materialCard19.Controls.Add(this.label130);
+            this.materialCard19.Controls.Add(this.label13);
+            this.materialCard19.Depth = 0;
+            this.materialCard19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard19.Location = new System.Drawing.Point(405, 9);
+            this.materialCard19.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard19.Name = "materialCard19";
+            this.materialCard19.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard19.Size = new System.Drawing.Size(365, 473);
+            this.materialCard19.TabIndex = 1;
+            // 
+            // label171
+            // 
+            this.label171.BackColor = System.Drawing.Color.Honeydew;
+            this.label171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label171.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label171.Location = new System.Drawing.Point(246, 443);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(59, 27);
+            this.label171.TabIndex = 74;
+            this.label171.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label172
+            // 
+            this.label172.BackColor = System.Drawing.Color.Honeydew;
+            this.label172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label172.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label172.Location = new System.Drawing.Point(246, 417);
+            this.label172.Name = "label172";
+            this.label172.Size = new System.Drawing.Size(59, 27);
+            this.label172.TabIndex = 73;
+            this.label172.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label169
+            // 
+            this.label169.BackColor = System.Drawing.Color.Honeydew;
+            this.label169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label169.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label169.Location = new System.Drawing.Point(108, 443);
+            this.label169.Name = "label169";
+            this.label169.Size = new System.Drawing.Size(139, 27);
+            this.label169.TabIndex = 72;
+            this.label169.Text = "Недопресовка";
+            this.label169.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label170
+            // 
+            this.label170.BackColor = System.Drawing.Color.Honeydew;
+            this.label170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label170.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label170.Location = new System.Drawing.Point(108, 417);
+            this.label170.Name = "label170";
+            this.label170.Size = new System.Drawing.Size(139, 27);
+            this.label170.TabIndex = 71;
+            this.label170.Text = "Перепресовка";
+            this.label170.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label82
+            // 
+            this.label82.BackColor = System.Drawing.Color.Honeydew;
+            this.label82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label82.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label82.Location = new System.Drawing.Point(304, 289);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(61, 181);
+            this.label82.TabIndex = 70;
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label84
+            // 
+            this.label84.BackColor = System.Drawing.Color.Honeydew;
+            this.label84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label84.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label84.Location = new System.Drawing.Point(304, 81);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(61, 209);
+            this.label84.TabIndex = 69;
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label85
+            // 
+            this.label85.BackColor = System.Drawing.Color.Honeydew;
+            this.label85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label85.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label85.Location = new System.Drawing.Point(246, 393);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(59, 27);
+            this.label85.TabIndex = 68;
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label87
+            // 
+            this.label87.BackColor = System.Drawing.Color.Honeydew;
+            this.label87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label87.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label87.Location = new System.Drawing.Point(246, 367);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(59, 27);
+            this.label87.TabIndex = 67;
+            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label88
+            // 
+            this.label88.BackColor = System.Drawing.Color.Honeydew;
+            this.label88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label88.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label88.Location = new System.Drawing.Point(246, 341);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(59, 27);
+            this.label88.TabIndex = 66;
+            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label90
+            // 
+            this.label90.BackColor = System.Drawing.Color.Honeydew;
+            this.label90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label90.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label90.Location = new System.Drawing.Point(246, 315);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(59, 27);
+            this.label90.TabIndex = 65;
+            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label91
+            // 
+            this.label91.BackColor = System.Drawing.Color.Honeydew;
+            this.label91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label91.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label91.Location = new System.Drawing.Point(246, 289);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(59, 27);
+            this.label91.TabIndex = 64;
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label93
+            // 
+            this.label93.BackColor = System.Drawing.Color.Honeydew;
+            this.label93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label93.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label93.Location = new System.Drawing.Point(246, 263);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(59, 27);
+            this.label93.TabIndex = 63;
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label94
+            // 
+            this.label94.BackColor = System.Drawing.Color.Honeydew;
+            this.label94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label94.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label94.Location = new System.Drawing.Point(246, 237);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(59, 27);
+            this.label94.TabIndex = 62;
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label96
+            // 
+            this.label96.BackColor = System.Drawing.Color.Honeydew;
+            this.label96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label96.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label96.Location = new System.Drawing.Point(246, 211);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(59, 27);
+            this.label96.TabIndex = 61;
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label97
+            // 
+            this.label97.BackColor = System.Drawing.Color.Honeydew;
+            this.label97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label97.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label97.Location = new System.Drawing.Point(246, 185);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(59, 27);
+            this.label97.TabIndex = 60;
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label99
+            // 
+            this.label99.BackColor = System.Drawing.Color.Honeydew;
+            this.label99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label99.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label99.Location = new System.Drawing.Point(246, 159);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(59, 27);
+            this.label99.TabIndex = 59;
+            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label100
+            // 
+            this.label100.BackColor = System.Drawing.Color.Honeydew;
+            this.label100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label100.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label100.Location = new System.Drawing.Point(246, 133);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(59, 27);
+            this.label100.TabIndex = 58;
+            this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label102
+            // 
+            this.label102.BackColor = System.Drawing.Color.Honeydew;
+            this.label102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label102.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label102.Location = new System.Drawing.Point(246, 107);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(59, 27);
+            this.label102.TabIndex = 57;
+            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label103
+            // 
+            this.label103.BackColor = System.Drawing.Color.Honeydew;
+            this.label103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label103.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label103.Location = new System.Drawing.Point(246, 81);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(59, 27);
+            this.label103.TabIndex = 56;
+            this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label105
+            // 
+            this.label105.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label105.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label105.Location = new System.Drawing.Point(0, 289);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(109, 181);
+            this.label105.TabIndex = 55;
+            this.label105.Text = "Контроль венчика";
+            this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label106
+            // 
+            this.label106.BackColor = System.Drawing.Color.Honeydew;
+            this.label106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label106.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label106.Location = new System.Drawing.Point(108, 393);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(139, 27);
+            this.label106.TabIndex = 54;
+            this.label106.Text = "Сахарный венчик";
+            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label108
+            // 
+            this.label108.BackColor = System.Drawing.Color.Honeydew;
+            this.label108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label108.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label108.Location = new System.Drawing.Point(108, 367);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(139, 27);
+            this.label108.TabIndex = 53;
+            this.label108.Text = "Скол на поверхности";
+            this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label113
+            // 
+            this.label113.BackColor = System.Drawing.Color.Honeydew;
+            this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label113.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label113.Location = new System.Drawing.Point(108, 341);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(139, 27);
+            this.label113.TabIndex = 52;
+            this.label113.Text = "Внешний скол";
+            this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label114
+            // 
+            this.label114.BackColor = System.Drawing.Color.Honeydew;
+            this.label114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label114.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label114.Location = new System.Drawing.Point(108, 315);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(139, 27);
+            this.label114.TabIndex = 51;
+            this.label114.Text = "Внутренний скол";
+            this.label114.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label115
+            // 
+            this.label115.BackColor = System.Drawing.Color.Honeydew;
+            this.label115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label115.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label115.Location = new System.Drawing.Point(108, 289);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(139, 27);
+            this.label115.TabIndex = 50;
+            this.label115.Text = "Нитевидный шов";
+            this.label115.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label116
+            // 
+            this.label116.BackColor = System.Drawing.Color.Honeydew;
+            this.label116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label116.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label116.Location = new System.Drawing.Point(108, 263);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(139, 27);
+            this.label116.TabIndex = 49;
+            this.label116.Text = "Другие дефекты";
+            this.label116.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label117
+            // 
+            this.label117.BackColor = System.Drawing.Color.Honeydew;
+            this.label117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label117.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label117.Location = new System.Drawing.Point(108, 237);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(139, 27);
+            this.label117.TabIndex = 48;
+            this.label117.Text = "Ориентатор";
+            this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label118
+            // 
+            this.label118.BackColor = System.Drawing.Color.Honeydew;
+            this.label118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label118.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label118.Location = new System.Drawing.Point(108, 211);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(139, 27);
+            this.label118.TabIndex = 47;
+            this.label118.Text = "Деф. венчик";
+            this.label118.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label119
+            // 
+            this.label119.BackColor = System.Drawing.Color.Honeydew;
+            this.label119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label119.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label119.Location = new System.Drawing.Point(108, 185);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(139, 27);
+            this.label119.TabIndex = 46;
+            this.label119.Text = "Тонкое дно";
+            this.label119.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label120
+            // 
+            this.label120.BackColor = System.Drawing.Color.Honeydew;
+            this.label120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label120.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label120.Location = new System.Drawing.Point(108, 159);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(139, 27);
+            this.label120.TabIndex = 45;
+            this.label120.Text = "Мошка";
+            this.label120.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label121
+            // 
+            this.label121.BackColor = System.Drawing.Color.Honeydew;
+            this.label121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label121.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label121.Location = new System.Drawing.Point(108, 107);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(139, 27);
+            this.label121.TabIndex = 44;
+            this.label121.Text = "Пузырь";
+            this.label121.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label122
+            // 
+            this.label122.BackColor = System.Drawing.Color.Honeydew;
+            this.label122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label122.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label122.Location = new System.Drawing.Point(108, 133);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(139, 27);
+            this.label122.TabIndex = 43;
+            this.label122.Text = "Загрязнения";
+            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label123
+            // 
+            this.label123.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label123.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label123.Location = new System.Drawing.Point(0, 81);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(109, 209);
+            this.label123.TabIndex = 42;
+            this.label123.Text = "Контроль дна";
+            this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label124
+            // 
+            this.label124.BackColor = System.Drawing.Color.Honeydew;
+            this.label124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label124.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label124.Location = new System.Drawing.Point(108, 81);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(139, 27);
+            this.label124.TabIndex = 41;
+            this.label124.Text = "Камни";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label125
+            // 
+            this.label125.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label125.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label125.Location = new System.Drawing.Point(304, 55);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(61, 27);
+            this.label125.TabIndex = 40;
+            this.label125.Text = "%(ср)";
+            this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label126
+            // 
+            this.label126.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label126.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label126.Location = new System.Drawing.Point(246, 55);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(59, 27);
+            this.label126.TabIndex = 39;
+            this.label126.Text = "шт";
+            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label127
+            // 
+            this.label127.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label127.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label127.Location = new System.Drawing.Point(0, 55);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(247, 27);
+            this.label127.TabIndex = 38;
+            this.label127.Text = "Инспекция/браки";
+            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label128
+            // 
+            this.label128.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label128.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label128.Location = new System.Drawing.Point(304, 29);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(61, 27);
+            this.label128.TabIndex = 37;
+            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label129
+            // 
+            this.label129.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label129.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label129.Location = new System.Drawing.Point(246, 29);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(59, 27);
+            this.label129.TabIndex = 36;
+            this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label130
+            // 
+            this.label130.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label130.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label130.Location = new System.Drawing.Point(0, 29);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(247, 27);
+            this.label130.TabIndex = 35;
+            this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label13.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(0, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(365, 33);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Машина контроля дна и венчика (MULTI)";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // materialCard18
+            // 
+            this.materialCard18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard18.Controls.Add(this.label167);
+            this.materialCard18.Controls.Add(this.label168);
+            this.materialCard18.Controls.Add(this.label81);
+            this.materialCard18.Controls.Add(this.label73);
+            this.materialCard18.Controls.Add(this.label74);
+            this.materialCard18.Controls.Add(this.label76);
+            this.materialCard18.Controls.Add(this.label79);
+            this.materialCard18.Controls.Add(this.label67);
+            this.materialCard18.Controls.Add(this.label68);
+            this.materialCard18.Controls.Add(this.label70);
+            this.materialCard18.Controls.Add(this.label71);
+            this.materialCard18.Controls.Add(this.label61);
+            this.materialCard18.Controls.Add(this.label62);
+            this.materialCard18.Controls.Add(this.label64);
+            this.materialCard18.Controls.Add(this.label65);
+            this.materialCard18.Controls.Add(this.label58);
+            this.materialCard18.Controls.Add(this.label59);
+            this.materialCard18.Controls.Add(this.label56);
+            this.materialCard18.Controls.Add(this.label55);
+            this.materialCard18.Controls.Add(this.label53);
+            this.materialCard18.Controls.Add(this.label52);
+            this.materialCard18.Controls.Add(this.label50);
+            this.materialCard18.Controls.Add(this.label49);
+            this.materialCard18.Controls.Add(this.label47);
+            this.materialCard18.Controls.Add(this.label44);
+            this.materialCard18.Controls.Add(this.label42);
+            this.materialCard18.Controls.Add(this.label41);
+            this.materialCard18.Controls.Add(this.label39);
+            this.materialCard18.Controls.Add(this.label38);
+            this.materialCard18.Controls.Add(this.label36);
+            this.materialCard18.Controls.Add(this.label34);
+            this.materialCard18.Controls.Add(this.label31);
+            this.materialCard18.Controls.Add(this.label27);
+            this.materialCard18.Controls.Add(this.label28);
+            this.materialCard18.Controls.Add(this.label30);
+            this.materialCard18.Controls.Add(this.label22);
+            this.materialCard18.Controls.Add(this.label21);
+            this.materialCard18.Controls.Add(this.label18);
+            this.materialCard18.Controls.Add(this.label12);
+            this.materialCard18.Depth = 0;
+            this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard18.Location = new System.Drawing.Point(12, 9);
+            this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard18.Name = "materialCard18";
+            this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard18.Size = new System.Drawing.Size(365, 458);
+            this.materialCard18.TabIndex = 1;
+            // 
+            // label167
+            // 
+            this.label167.BackColor = System.Drawing.Color.Honeydew;
+            this.label167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label167.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label167.Location = new System.Drawing.Point(246, 423);
+            this.label167.Name = "label167";
+            this.label167.Size = new System.Drawing.Size(59, 27);
+            this.label167.TabIndex = 36;
+            this.label167.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label168
+            // 
+            this.label168.BackColor = System.Drawing.Color.Honeydew;
+            this.label168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label168.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label168.Location = new System.Drawing.Point(108, 423);
+            this.label168.Name = "label168";
+            this.label168.Size = new System.Drawing.Size(139, 27);
+            this.label168.TabIndex = 35;
+            this.label168.Text = "Ошибка";
+            this.label168.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label81
+            // 
+            this.label81.BackColor = System.Drawing.Color.Honeydew;
+            this.label81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label81.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label81.Location = new System.Drawing.Point(304, 345);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(61, 105);
+            this.label81.TabIndex = 34;
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.Honeydew;
+            this.label73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label73.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label73.Location = new System.Drawing.Point(304, 85);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(61, 261);
+            this.label73.TabIndex = 33;
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.Honeydew;
+            this.label74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label74.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label74.Location = new System.Drawing.Point(246, 397);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(59, 27);
+            this.label74.TabIndex = 32;
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label76
+            // 
+            this.label76.BackColor = System.Drawing.Color.Honeydew;
+            this.label76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label76.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label76.Location = new System.Drawing.Point(246, 371);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(59, 27);
+            this.label76.TabIndex = 31;
+            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label79
+            // 
+            this.label79.BackColor = System.Drawing.Color.Honeydew;
+            this.label79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label79.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label79.Location = new System.Drawing.Point(246, 345);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(59, 27);
+            this.label79.TabIndex = 30;
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label67
+            // 
+            this.label67.BackColor = System.Drawing.Color.Honeydew;
+            this.label67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label67.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label67.Location = new System.Drawing.Point(246, 319);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(59, 27);
+            this.label67.TabIndex = 29;
+            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label68
+            // 
+            this.label68.BackColor = System.Drawing.Color.Honeydew;
+            this.label68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label68.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label68.Location = new System.Drawing.Point(246, 293);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(59, 27);
+            this.label68.TabIndex = 28;
+            this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            this.label70.BackColor = System.Drawing.Color.Honeydew;
+            this.label70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label70.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label70.Location = new System.Drawing.Point(246, 267);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(59, 27);
+            this.label70.TabIndex = 27;
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.Honeydew;
+            this.label71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label71.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label71.Location = new System.Drawing.Point(246, 241);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(59, 27);
+            this.label71.TabIndex = 26;
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label61
+            // 
+            this.label61.BackColor = System.Drawing.Color.Honeydew;
+            this.label61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label61.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label61.Location = new System.Drawing.Point(246, 215);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(59, 27);
+            this.label61.TabIndex = 25;
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label62
+            // 
+            this.label62.BackColor = System.Drawing.Color.Honeydew;
+            this.label62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label62.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label62.Location = new System.Drawing.Point(246, 189);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(59, 27);
+            this.label62.TabIndex = 24;
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label64
+            // 
+            this.label64.BackColor = System.Drawing.Color.Honeydew;
+            this.label64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label64.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label64.Location = new System.Drawing.Point(246, 163);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(59, 27);
+            this.label64.TabIndex = 23;
+            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label65
+            // 
+            this.label65.BackColor = System.Drawing.Color.Honeydew;
+            this.label65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label65.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label65.Location = new System.Drawing.Point(246, 137);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(59, 27);
+            this.label65.TabIndex = 22;
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label58
+            // 
+            this.label58.BackColor = System.Drawing.Color.Honeydew;
+            this.label58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label58.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label58.Location = new System.Drawing.Point(246, 111);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(59, 27);
+            this.label58.TabIndex = 21;
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            this.label59.BackColor = System.Drawing.Color.Honeydew;
+            this.label59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label59.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label59.Location = new System.Drawing.Point(246, 85);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(59, 27);
+            this.label59.TabIndex = 20;
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label56
+            // 
+            this.label56.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label56.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label56.Location = new System.Drawing.Point(0, 345);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(109, 105);
+            this.label56.TabIndex = 19;
+            this.label56.Text = "Контроль геометрии";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label55
+            // 
+            this.label55.BackColor = System.Drawing.Color.Honeydew;
+            this.label55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label55.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label55.Location = new System.Drawing.Point(108, 397);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(139, 27);
+            this.label55.TabIndex = 18;
+            this.label55.Text = "Диаметр";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label53
+            // 
+            this.label53.BackColor = System.Drawing.Color.Honeydew;
+            this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label53.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label53.Location = new System.Drawing.Point(108, 371);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(139, 27);
+            this.label53.TabIndex = 17;
+            this.label53.Text = "Высота";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label52
+            // 
+            this.label52.BackColor = System.Drawing.Color.Honeydew;
+            this.label52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label52.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label52.Location = new System.Drawing.Point(108, 345);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(139, 27);
+            this.label52.TabIndex = 16;
+            this.label52.Text = "Отклонение";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label50
+            // 
+            this.label50.BackColor = System.Drawing.Color.Honeydew;
+            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label50.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label50.Location = new System.Drawing.Point(108, 319);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(139, 27);
+            this.label50.TabIndex = 15;
+            this.label50.Text = "Прочие деффекты";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.Honeydew;
+            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label49.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label49.Location = new System.Drawing.Point(108, 293);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(139, 27);
+            this.label49.TabIndex = 14;
+            this.label49.Text = "Черное изображение";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label47
+            // 
+            this.label47.BackColor = System.Drawing.Color.Honeydew;
+            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label47.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label47.Location = new System.Drawing.Point(108, 267);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(139, 27);
+            this.label47.TabIndex = 13;
+            this.label47.Text = "Крылья (шов)";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.Honeydew;
+            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label44.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label44.Location = new System.Drawing.Point(108, 241);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(139, 27);
+            this.label44.TabIndex = 12;
+            this.label44.Text = "Качели";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.Honeydew;
+            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label42.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label42.Location = new System.Drawing.Point(108, 215);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(139, 27);
+            this.label42.TabIndex = 11;
+            this.label42.Text = "Тонкий";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label41
+            // 
+            this.label41.BackColor = System.Drawing.Color.Honeydew;
+            this.label41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label41.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label41.Location = new System.Drawing.Point(108, 189);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(139, 27);
+            this.label41.TabIndex = 10;
+            this.label41.Text = "Мошка";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.Color.Honeydew;
+            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label39.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label39.Location = new System.Drawing.Point(108, 163);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(139, 27);
+            this.label39.TabIndex = 9;
+            this.label39.Text = "Объект на границе зоны";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.Honeydew;
+            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label38.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.Location = new System.Drawing.Point(108, 111);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(139, 27);
+            this.label38.TabIndex = 8;
+            this.label38.Text = "Пузырь";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.Honeydew;
+            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label36.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(108, 137);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(139, 27);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Линейный деффект";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label34.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label34.Location = new System.Drawing.Point(0, 85);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(109, 261);
+            this.label34.TabIndex = 6;
+            this.label34.Text = "Визуальный контроль";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            this.label31.BackColor = System.Drawing.Color.Honeydew;
+            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label31.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label31.Location = new System.Drawing.Point(108, 85);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(139, 27);
+            this.label31.TabIndex = 6;
+            this.label31.Text = "Включения";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label27
+            // 
+            this.label27.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label27.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(304, 59);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(61, 27);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "%(ср)";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label28.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label28.Location = new System.Drawing.Point(246, 59);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(59, 27);
+            this.label28.TabIndex = 4;
+            this.label28.Text = "шт";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label30.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label30.Location = new System.Drawing.Point(0, 59);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(247, 27);
+            this.label30.TabIndex = 3;
+            this.label30.Text = "Инспекция/браки";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label22.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(304, 33);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(61, 27);
+            this.label22.TabIndex = 2;
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label22.Click += new System.EventHandler(this.label22_Click);
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label21.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(246, 33);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(59, 27);
+            this.label21.TabIndex = 1;
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label18.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(0, 33);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(247, 27);
+            this.label18.TabIndex = 0;
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label12.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(0, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(365, 33);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Машина контроля боковой стенки (ICAM - MCAL)";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // controlMashineChart
+            // 
+            this.controlMashineChart.Location = new System.Drawing.Point(12, 499);
+            this.controlMashineChart.Name = "controlMashineChart";
+            this.controlMashineChart.Size = new System.Drawing.Size(1152, 355);
+            this.controlMashineChart.TabIndex = 0;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.ImageKey = "fan_speed_30px.png";
+            this.tabPage9.Location = new System.Drawing.Point(4, 74);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Принудительный сдув";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.ImageKey = "alarm_30px.png";
+            this.tabPage11.Location = new System.Drawing.Point(4, 74);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "Предупреждения";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.ImageKey = "checklist_30px.png";
+            this.tabPage12.Location = new System.Drawing.Point(4, 74);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage12.TabIndex = 11;
+            this.tabPage12.Text = "Номенклатура";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.ImageKey = "heart_monitor_30px.png";
+            this.tabPage13.Location = new System.Drawing.Point(4, 74);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage13.TabIndex = 12;
+            this.tabPage13.Text = "Мониторинг";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.ImageKey = "logout_30px.png";
+            this.tabPage14.Location = new System.Drawing.Point(4, 74);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Size = new System.Drawing.Size(1228, 868);
+            this.tabPage14.TabIndex = 13;
+            this.tabPage14.Text = "Выход";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // label110
+            // 
+            this.label110.Location = new System.Drawing.Point(0, 0);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(100, 23);
+            this.label110.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Roboto Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(277, 54);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 15);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Линия 1";
+            // 
+            // materialLabel12
+            // 
+            this.materialLabel12.AutoSize = true;
+            this.materialLabel12.Depth = 0;
+            this.materialLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel12.Location = new System.Drawing.Point(18, 13);
+            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel12.Name = "materialLabel12";
+            this.materialLabel12.Size = new System.Drawing.Size(444, 19);
+            this.materialLabel12.TabIndex = 0;
+            // 
+            // materialButton3
+            // 
+            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton3.Depth = 0;
+            this.materialButton3.HighEmphasis = true;
+            this.materialButton3.Icon = null;
+            this.materialButton3.Location = new System.Drawing.Point(722, 6);
+            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton3.Name = "materialButton3";
+            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton3.Size = new System.Drawing.Size(89, 36);
+            this.materialButton3.TabIndex = 1;
+            this.materialButton3.Text = "Добавть";
+            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton3.UseAccentColor = false;
+            this.materialButton3.UseVisualStyleBackColor = true;
+            // 
+            // materialButton2
+            // 
+            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton2.Depth = 0;
+            this.materialButton2.HighEmphasis = true;
+            this.materialButton2.Icon = null;
+            this.materialButton2.Location = new System.Drawing.Point(837, 6);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton2.Name = "materialButton2";
+            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton2.Size = new System.Drawing.Size(101, 36);
+            this.materialButton2.TabIndex = 1;
+            this.materialButton2.Text = "Изменить";
+            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton2.UseAccentColor = false;
+            this.materialButton2.UseVisualStyleBackColor = true;
+            // 
+            // materialButton1
+            // 
+            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton1.Depth = 0;
+            this.materialButton1.HighEmphasis = true;
+            this.materialButton1.Icon = null;
+            this.materialButton1.Location = new System.Drawing.Point(963, 6);
+            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton1.Name = "materialButton1";
+            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton1.Size = new System.Drawing.Size(110, 36);
+            this.materialButton1.TabIndex = 1;
+            this.materialButton1.Text = "Подробнее";
+            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton1.UseAccentColor = false;
+            this.materialButton1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.HeaderText = "Номер паллета";
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.HeaderText = "Номер талона";
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.HeaderText = "Количество";
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.HeaderText = "Ассортимент";
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.HeaderText = "Линия";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.HeaderText = "Смена";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.HeaderText = "Время";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -6548,7 +8027,6 @@ namespace WinFormsApp1
             this.materialCard11.ResumeLayout(false);
             this.materialCard11.PerformLayout();
             this.tabPage6.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
             this.materialTabControl6.ResumeLayout(false);
             this.tabPage26.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.notFinishData)).EndInit();
@@ -6565,12 +8043,17 @@ namespace WinFormsApp1
             ((System.ComponentModel.ISupportInitialize)(this.notFinishBalanceMainData)).EndInit();
             this.materialCard15.ResumeLayout(false);
             this.materialCard15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            this.materialCard16.ResumeLayout(false);
-            this.materialCard16.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.materialCard17.ResumeLayout(false);
             this.materialCard17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            this.materialCard16.ResumeLayout(false);
+            this.materialCard16.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.materialCard20.ResumeLayout(false);
+            this.materialCard19.ResumeLayout(false);
+            this.materialCard18.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -6866,7 +8349,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.TabPage tabPage13;
@@ -7059,6 +8541,116 @@ namespace WinFormsApp1
         private MaterialSkin.Controls.MaterialButton materialButton5;
         private MaterialSkin.Controls.MaterialButton materialButton6;
         private MaterialSkin.Controls.MaterialLabel materialLabel16;
+        private MaterialSkin.Controls.MaterialCard materialCard20;
+        private MaterialSkin.Controls.MaterialCard materialCard19;
+        private MaterialSkin.Controls.MaterialCard materialCard18;
+        private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart controlMashineChart;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label132;
+        private System.Windows.Forms.Label label137;
+        private System.Windows.Forms.Label label138;
+        private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.Label label140;
+        private System.Windows.Forms.Label label141;
+        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.Label label143;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Label label151;
+        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.Label label153;
+        private System.Windows.Forms.Label label154;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.Label label160;
+        private System.Windows.Forms.Label label161;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.Label label163;
+        private System.Windows.Forms.Label label164;
+        private System.Windows.Forms.Label label165;
+        private System.Windows.Forms.Label label166;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label108;
+        private System.Windows.Forms.Label label113;
+        private System.Windows.Forms.Label label114;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.Label label116;
+        private System.Windows.Forms.Label label117;
+        private System.Windows.Forms.Label label118;
+        private System.Windows.Forms.Label label119;
+        private System.Windows.Forms.Label label120;
+        private System.Windows.Forms.Label label121;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Label label123;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.Label label125;
+        private System.Windows.Forms.Label label126;
+        private System.Windows.Forms.Label label127;
+        private System.Windows.Forms.Label label128;
+        private System.Windows.Forms.Label label129;
+        private System.Windows.Forms.Label label130;
+        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.Label label172;
+        private System.Windows.Forms.Label label169;
+        private System.Windows.Forms.Label label170;
+        private System.Windows.Forms.Label label167;
+        private System.Windows.Forms.Label label168;
     }
 }
 

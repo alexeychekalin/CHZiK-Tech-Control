@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LiveChartsCore;
+using LiveChartsCore.SkiaSharpView;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
@@ -45,6 +47,15 @@ namespace WinFormsApp1
             // ТАЙМЕР
             timer1.Interval = 5;
             timer1.Enabled = true;
+
+            controlMashineChart.Series = new ISeries[]
+           {
+                new LineSeries<double>
+                {
+                    Values = new double[] { 2, 1, 3, 5, 3, 4, 6 },
+                    Fill = null
+                }
+           };
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -155,6 +166,31 @@ namespace WinFormsApp1
         {
             var pp = new Perepack();
             pp.ShowDialog();
+        }
+
+        private void materialLabel20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
