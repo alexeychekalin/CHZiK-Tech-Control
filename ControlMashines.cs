@@ -701,6 +701,7 @@ namespace WinFormsApp1
         }
         #endregion
 
+        #region Изменение таблички ICAM
         private void unvisible_icam()
         {
             form.label135.Visible = false; form.label134.Visible = false; form.label181.Visible = false; form.label148.Visible = false;
@@ -721,6 +722,7 @@ namespace WinFormsApp1
             form.label53.Visible = false; form.label168.Visible = false; form.label55.Visible = false; form.label76.Visible = false; form.label74.Visible = false;
             form.label167.Visible = false; form.label56.Visible = false;
         }
+        #endregion
 
         #region Вызов окон по статистике
         //Вызов окон по статистике
@@ -768,6 +770,14 @@ namespace WinFormsApp1
         {
             var m1_stat = new M1_statistics(code_deffect, DT1);
             m1_stat.ShowDialog();
+        }
+
+        #endregion
+
+        #region Построение графика
+        private void DrawGraph(DateTime date)
+        {
+
         }
 
         #endregion
