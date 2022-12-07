@@ -61,12 +61,66 @@ namespace WinFormsApp1.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на 2.
+        /// </summary>
+        internal static string Cech {
+            get {
+                return ResourceManager.GetString("Cech", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap fingerprint_30px {
             get {
                 object obj = ResourceManager.GetObject("fingerprint_30px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 2.
+        /// </summary>
+        internal static string LineControl {
+            get {
+                return ResourceManager.GetString("LineControl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 12345.
+        /// </summary>
+        internal static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на false.
+        /// </summary>
+        internal static string secure {
+            get {
+                return ResourceManager.GetString("secure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на (LocalDB)\MSSQLLocalDB.
+        /// </summary>
+        internal static string Server {
+            get {
+                return ResourceManager.GetString("Server", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на alex.
+        /// </summary>
+        internal static string User {
+            get {
+                return ResourceManager.GetString("User", resourceCulture);
             }
         }
     }

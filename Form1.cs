@@ -8,9 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LiveChartsCore;
+using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using Microsoft.Data.SqlClient;
+using WinFormsApp1.Properties;
+
 
 namespace WinFormsApp1
 {
@@ -50,17 +54,18 @@ namespace WinFormsApp1
 
             controlMashineChart.Series = new ISeries[]
            {
-                new LineSeries<double>
+                new LineSeries<ObservablePoint>
                 {
-                    Values = new double[] { 2, 1, 3, 5, 3, 4, 6 },
-                    Fill = null
+                   Values = new ObservablePoint[]
+                    {
+                        new ObservablePoint(0, 4),
+                        new ObservablePoint(1, 3),
+                        new ObservablePoint(3, 8),
+                        new ObservablePoint(18, 6),
+                        new ObservablePoint(20, 12)
+                    }
                 }
            };
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -80,26 +85,6 @@ namespace WinFormsApp1
             DialogResult result = materialDialog.ShowDialog(this);
         }
 
-        private void materialCard2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tabPage19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void isolAddBrack_Click(object sender, EventArgs e)
         {
             var newBrack = new IsolBrack();
@@ -116,26 +101,6 @@ namespace WinFormsApp1
         {
             var newBrack = new IsolBrack();
             newBrack.ShowDialog();
-        }
-
-        private void dataGridView7_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void materialCard9_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void materialCard8_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void isolBalanceMainData_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void materialButton6_Click(object sender, EventArgs e)
@@ -168,29 +133,14 @@ namespace WinFormsApp1
             pp.ShowDialog();
         }
 
-        private void materialLabel20_Click(object sender, EventArgs e)
+        private void materialTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label18_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label21_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage8_Click(object sender, EventArgs e)
-        {
-
+            switch(materialTabControl1.SelectedIndex)
+            {
+                case 7:
+                    var cm =  new ControlMashines(this);
+                    break;
+            }
         }
     }
 }

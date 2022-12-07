@@ -508,6 +508,9 @@ namespace WinFormsApp1
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.b_max = new System.Windows.Forms.Button();
+            this.b_min = new System.Windows.Forms.Button();
+            this.lab_visir = new System.Windows.Forms.Label();
             this.materialCard20 = new MaterialSkin.Controls.MaterialCard();
             this.label132 = new System.Windows.Forms.Label();
             this.label137 = new System.Windows.Forms.Label();
@@ -578,38 +581,58 @@ namespace WinFormsApp1
             this.label130 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.materialCard18 = new MaterialSkin.Controls.MaterialCard();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label182 = new System.Windows.Forms.Label();
+            this.label181 = new System.Windows.Forms.Label();
+            this.label178 = new System.Windows.Forms.Label();
+            this.label179 = new System.Windows.Forms.Label();
+            this.label180 = new System.Windows.Forms.Label();
+            this.label149 = new System.Windows.Forms.Label();
+            this.label136 = new System.Windows.Forms.Label();
+            this.label150 = new System.Windows.Forms.Label();
+            this.label159 = new System.Windows.Forms.Label();
+            this.label146 = new System.Windows.Forms.Label();
+            this.label173 = new System.Windows.Forms.Label();
+            this.label147 = new System.Windows.Forms.Label();
+            this.label174 = new System.Windows.Forms.Label();
+            this.label148 = new System.Windows.Forms.Label();
+            this.label175 = new System.Windows.Forms.Label();
+            this.label135 = new System.Windows.Forms.Label();
+            this.label176 = new System.Windows.Forms.Label();
+            this.label134 = new System.Windows.Forms.Label();
+            this.label133 = new System.Windows.Forms.Label();
+            this.label131 = new System.Windows.Forms.Label();
             this.label167 = new System.Windows.Forms.Label();
             this.label168 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
             this.label74 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -1034,6 +1057,7 @@ namespace WinFormsApp1
             this.materialTabControl1.SelectedIndex = 0;
             this.materialTabControl1.Size = new System.Drawing.Size(1236, 946);
             this.materialTabControl1.TabIndex = 2;
+            this.materialTabControl1.SelectedIndexChanged += new System.EventHandler(this.materialTabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -2541,7 +2565,6 @@ namespace WinFormsApp1
             this.tabPage19.TabIndex = 1;
             this.tabPage19.Text = "Схема";
             this.tabPage19.UseVisualStyleBackColor = true;
-            this.tabPage19.Click += new System.EventHandler(this.tabPage19_Click);
             // 
             // label112
             // 
@@ -4332,7 +4355,6 @@ namespace WinFormsApp1
             this.sduvDateTo.Name = "sduvDateTo";
             this.sduvDateTo.Size = new System.Drawing.Size(200, 27);
             this.sduvDateTo.TabIndex = 4;
-            this.sduvDateTo.ValueChanged += new System.EventHandler(this.dateTimePicker3_ValueChanged);
             // 
             // sduvDateFrom
             // 
@@ -4342,7 +4364,6 @@ namespace WinFormsApp1
             this.sduvDateFrom.Name = "sduvDateFrom";
             this.sduvDateFrom.Size = new System.Drawing.Size(200, 27);
             this.sduvDateFrom.TabIndex = 3;
-            this.sduvDateFrom.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // sduvLine
             // 
@@ -5110,7 +5131,6 @@ namespace WinFormsApp1
             this.isolHistoryData.RowTemplate.Height = 25;
             this.isolHistoryData.Size = new System.Drawing.Size(1099, 503);
             this.isolHistoryData.TabIndex = 10;
-            this.isolHistoryData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView7_CellContentClick);
             // 
             // dataGridViewTextBoxColumn25
             // 
@@ -5328,7 +5348,6 @@ namespace WinFormsApp1
             this.materialCard9.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard9.Size = new System.Drawing.Size(477, 48);
             this.materialCard9.TabIndex = 11;
-            this.materialCard9.Paint += new System.Windows.Forms.PaintEventHandler(this.materialCard9_Paint);
             // 
             // materialLabel9
             // 
@@ -5355,7 +5374,6 @@ namespace WinFormsApp1
             this.isolBalanceMainData.RowTemplate.Height = 25;
             this.isolBalanceMainData.Size = new System.Drawing.Size(477, 680);
             this.isolBalanceMainData.TabIndex = 10;
-            this.isolBalanceMainData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.isolBalanceMainData_CellContentClick);
             // 
             // dataGridViewTextBoxColumn31
             // 
@@ -5385,7 +5403,6 @@ namespace WinFormsApp1
             this.materialCard8.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard8.Size = new System.Drawing.Size(477, 48);
             this.materialCard8.TabIndex = 9;
-            this.materialCard8.Paint += new System.Windows.Forms.PaintEventHandler(this.materialCard8_Paint);
             // 
             // materialLabel8
             // 
@@ -6396,6 +6413,9 @@ namespace WinFormsApp1
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.b_max);
+            this.tabPage8.Controls.Add(this.b_min);
+            this.tabPage8.Controls.Add(this.lab_visir);
             this.tabPage8.Controls.Add(this.materialCard20);
             this.tabPage8.Controls.Add(this.materialCard19);
             this.tabPage8.Controls.Add(this.materialCard18);
@@ -6407,7 +6427,40 @@ namespace WinFormsApp1
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Контрольные машины";
             this.tabPage8.UseVisualStyleBackColor = true;
-            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
+            // 
+            // b_max
+            // 
+            this.b_max.FlatAppearance.BorderSize = 0;
+            this.b_max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_max.Font = new System.Drawing.Font("Roboto Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b_max.Location = new System.Drawing.Point(713, 3);
+            this.b_max.Name = "b_max";
+            this.b_max.Size = new System.Drawing.Size(33, 27);
+            this.b_max.TabIndex = 4;
+            this.b_max.Text = ">";
+            this.b_max.UseVisualStyleBackColor = true;
+            // 
+            // b_min
+            // 
+            this.b_min.FlatAppearance.BorderSize = 0;
+            this.b_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_min.Font = new System.Drawing.Font("Roboto Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b_min.Location = new System.Drawing.Point(442, 3);
+            this.b_min.Name = "b_min";
+            this.b_min.Size = new System.Drawing.Size(33, 27);
+            this.b_min.TabIndex = 3;
+            this.b_min.Text = "<";
+            this.b_min.UseVisualStyleBackColor = true;
+            // 
+            // lab_visir
+            // 
+            this.lab_visir.Font = new System.Drawing.Font("Roboto Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lab_visir.Location = new System.Drawing.Point(481, 7);
+            this.lab_visir.Name = "lab_visir";
+            this.lab_visir.Size = new System.Drawing.Size(233, 23);
+            this.lab_visir.TabIndex = 2;
+            this.lab_visir.Text = "label183";
+            this.lab_visir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // materialCard20
             // 
@@ -6440,12 +6493,12 @@ namespace WinFormsApp1
             this.materialCard20.Controls.Add(this.label16);
             this.materialCard20.Depth = 0;
             this.materialCard20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard20.Location = new System.Drawing.Point(799, 9);
+            this.materialCard20.Location = new System.Drawing.Point(799, 39);
             this.materialCard20.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard20.Name = "materialCard20";
             this.materialCard20.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard20.Size = new System.Drawing.Size(365, 320);
+            this.materialCard20.Size = new System.Drawing.Size(373, 325);
             this.materialCard20.TabIndex = 1;
             // 
             // label132
@@ -6453,7 +6506,7 @@ namespace WinFormsApp1
             this.label132.BackColor = System.Drawing.Color.Honeydew;
             this.label132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label132.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label132.Location = new System.Drawing.Point(304, 81);
+            this.label132.Location = new System.Drawing.Point(308, 86);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(61, 235);
             this.label132.TabIndex = 105;
@@ -6464,7 +6517,7 @@ namespace WinFormsApp1
             this.label137.BackColor = System.Drawing.Color.Honeydew;
             this.label137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label137.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label137.Location = new System.Drawing.Point(246, 289);
+            this.label137.Location = new System.Drawing.Point(250, 294);
             this.label137.Name = "label137";
             this.label137.Size = new System.Drawing.Size(59, 27);
             this.label137.TabIndex = 100;
@@ -6475,7 +6528,7 @@ namespace WinFormsApp1
             this.label138.BackColor = System.Drawing.Color.Honeydew;
             this.label138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label138.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label138.Location = new System.Drawing.Point(246, 263);
+            this.label138.Location = new System.Drawing.Point(250, 268);
             this.label138.Name = "label138";
             this.label138.Size = new System.Drawing.Size(59, 27);
             this.label138.TabIndex = 99;
@@ -6486,7 +6539,7 @@ namespace WinFormsApp1
             this.label139.BackColor = System.Drawing.Color.Honeydew;
             this.label139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label139.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label139.Location = new System.Drawing.Point(246, 237);
+            this.label139.Location = new System.Drawing.Point(250, 242);
             this.label139.Name = "label139";
             this.label139.Size = new System.Drawing.Size(59, 27);
             this.label139.TabIndex = 98;
@@ -6497,7 +6550,7 @@ namespace WinFormsApp1
             this.label140.BackColor = System.Drawing.Color.Honeydew;
             this.label140.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label140.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label140.Location = new System.Drawing.Point(246, 211);
+            this.label140.Location = new System.Drawing.Point(250, 216);
             this.label140.Name = "label140";
             this.label140.Size = new System.Drawing.Size(59, 27);
             this.label140.TabIndex = 97;
@@ -6508,7 +6561,7 @@ namespace WinFormsApp1
             this.label141.BackColor = System.Drawing.Color.Honeydew;
             this.label141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label141.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label141.Location = new System.Drawing.Point(246, 185);
+            this.label141.Location = new System.Drawing.Point(250, 190);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(59, 27);
             this.label141.TabIndex = 96;
@@ -6519,7 +6572,7 @@ namespace WinFormsApp1
             this.label142.BackColor = System.Drawing.Color.Honeydew;
             this.label142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label142.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label142.Location = new System.Drawing.Point(246, 159);
+            this.label142.Location = new System.Drawing.Point(250, 164);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(59, 27);
             this.label142.TabIndex = 95;
@@ -6530,7 +6583,7 @@ namespace WinFormsApp1
             this.label143.BackColor = System.Drawing.Color.Honeydew;
             this.label143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label143.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label143.Location = new System.Drawing.Point(246, 133);
+            this.label143.Location = new System.Drawing.Point(250, 138);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(59, 27);
             this.label143.TabIndex = 94;
@@ -6541,7 +6594,7 @@ namespace WinFormsApp1
             this.label144.BackColor = System.Drawing.Color.Honeydew;
             this.label144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label144.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label144.Location = new System.Drawing.Point(246, 107);
+            this.label144.Location = new System.Drawing.Point(250, 112);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(59, 27);
             this.label144.TabIndex = 93;
@@ -6552,7 +6605,7 @@ namespace WinFormsApp1
             this.label145.BackColor = System.Drawing.Color.Honeydew;
             this.label145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label145.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label145.Location = new System.Drawing.Point(246, 81);
+            this.label145.Location = new System.Drawing.Point(250, 86);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(59, 27);
             this.label145.TabIndex = 92;
@@ -6562,8 +6615,9 @@ namespace WinFormsApp1
             // 
             this.label151.BackColor = System.Drawing.Color.Honeydew;
             this.label151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label151.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label151.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label151.Location = new System.Drawing.Point(0, 289);
+            this.label151.Location = new System.Drawing.Point(4, 294);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(247, 27);
             this.label151.TabIndex = 86;
@@ -6574,8 +6628,9 @@ namespace WinFormsApp1
             // 
             this.label152.BackColor = System.Drawing.Color.Honeydew;
             this.label152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label152.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label152.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label152.Location = new System.Drawing.Point(0, 263);
+            this.label152.Location = new System.Drawing.Point(4, 268);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(247, 27);
             this.label152.TabIndex = 85;
@@ -6586,8 +6641,9 @@ namespace WinFormsApp1
             // 
             this.label153.BackColor = System.Drawing.Color.Honeydew;
             this.label153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label153.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label153.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label153.Location = new System.Drawing.Point(0, 237);
+            this.label153.Location = new System.Drawing.Point(4, 242);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(247, 27);
             this.label153.TabIndex = 84;
@@ -6598,8 +6654,9 @@ namespace WinFormsApp1
             // 
             this.label154.BackColor = System.Drawing.Color.Honeydew;
             this.label154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label154.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label154.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label154.Location = new System.Drawing.Point(0, 211);
+            this.label154.Location = new System.Drawing.Point(4, 216);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(247, 27);
             this.label154.TabIndex = 83;
@@ -6610,8 +6667,9 @@ namespace WinFormsApp1
             // 
             this.label155.BackColor = System.Drawing.Color.Honeydew;
             this.label155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label155.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label155.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label155.Location = new System.Drawing.Point(0, 185);
+            this.label155.Location = new System.Drawing.Point(4, 190);
             this.label155.Name = "label155";
             this.label155.Size = new System.Drawing.Size(247, 27);
             this.label155.TabIndex = 82;
@@ -6622,8 +6680,9 @@ namespace WinFormsApp1
             // 
             this.label156.BackColor = System.Drawing.Color.Honeydew;
             this.label156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label156.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label156.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label156.Location = new System.Drawing.Point(0, 159);
+            this.label156.Location = new System.Drawing.Point(4, 164);
             this.label156.Name = "label156";
             this.label156.Size = new System.Drawing.Size(247, 27);
             this.label156.TabIndex = 81;
@@ -6634,8 +6693,9 @@ namespace WinFormsApp1
             // 
             this.label157.BackColor = System.Drawing.Color.Honeydew;
             this.label157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label157.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label157.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label157.Location = new System.Drawing.Point(0, 107);
+            this.label157.Location = new System.Drawing.Point(4, 112);
             this.label157.Name = "label157";
             this.label157.Size = new System.Drawing.Size(247, 27);
             this.label157.TabIndex = 80;
@@ -6646,8 +6706,9 @@ namespace WinFormsApp1
             // 
             this.label158.BackColor = System.Drawing.Color.Honeydew;
             this.label158.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label158.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label158.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label158.Location = new System.Drawing.Point(0, 133);
+            this.label158.Location = new System.Drawing.Point(4, 138);
             this.label158.Name = "label158";
             this.label158.Size = new System.Drawing.Size(247, 27);
             this.label158.TabIndex = 79;
@@ -6658,8 +6719,9 @@ namespace WinFormsApp1
             // 
             this.label160.BackColor = System.Drawing.Color.Honeydew;
             this.label160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label160.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label160.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label160.Location = new System.Drawing.Point(0, 81);
+            this.label160.Location = new System.Drawing.Point(4, 86);
             this.label160.Name = "label160";
             this.label160.Size = new System.Drawing.Size(247, 27);
             this.label160.TabIndex = 77;
@@ -6671,7 +6733,7 @@ namespace WinFormsApp1
             this.label161.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label161.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label161.Location = new System.Drawing.Point(304, 55);
+            this.label161.Location = new System.Drawing.Point(308, 60);
             this.label161.Name = "label161";
             this.label161.Size = new System.Drawing.Size(61, 27);
             this.label161.TabIndex = 76;
@@ -6683,7 +6745,7 @@ namespace WinFormsApp1
             this.label162.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label162.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label162.Location = new System.Drawing.Point(246, 55);
+            this.label162.Location = new System.Drawing.Point(250, 60);
             this.label162.Name = "label162";
             this.label162.Size = new System.Drawing.Size(59, 27);
             this.label162.TabIndex = 75;
@@ -6695,7 +6757,7 @@ namespace WinFormsApp1
             this.label163.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label163.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label163.Location = new System.Drawing.Point(0, 55);
+            this.label163.Location = new System.Drawing.Point(4, 60);
             this.label163.Name = "label163";
             this.label163.Size = new System.Drawing.Size(247, 27);
             this.label163.TabIndex = 74;
@@ -6707,7 +6769,7 @@ namespace WinFormsApp1
             this.label164.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label164.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label164.Location = new System.Drawing.Point(304, 29);
+            this.label164.Location = new System.Drawing.Point(308, 34);
             this.label164.Name = "label164";
             this.label164.Size = new System.Drawing.Size(61, 27);
             this.label164.TabIndex = 73;
@@ -6718,7 +6780,7 @@ namespace WinFormsApp1
             this.label165.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label165.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label165.Location = new System.Drawing.Point(246, 29);
+            this.label165.Location = new System.Drawing.Point(250, 34);
             this.label165.Name = "label165";
             this.label165.Size = new System.Drawing.Size(59, 27);
             this.label165.TabIndex = 72;
@@ -6729,7 +6791,7 @@ namespace WinFormsApp1
             this.label166.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label166.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label166.Location = new System.Drawing.Point(0, 29);
+            this.label166.Location = new System.Drawing.Point(4, 34);
             this.label166.Name = "label166";
             this.label166.Size = new System.Drawing.Size(247, 27);
             this.label166.TabIndex = 71;
@@ -6738,8 +6800,9 @@ namespace WinFormsApp1
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label16.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(0, 0);
+            this.label16.Location = new System.Drawing.Point(4, 4);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(365, 33);
             this.label16.TabIndex = 2;
@@ -6792,12 +6855,12 @@ namespace WinFormsApp1
             this.materialCard19.Controls.Add(this.label13);
             this.materialCard19.Depth = 0;
             this.materialCard19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard19.Location = new System.Drawing.Point(405, 9);
+            this.materialCard19.Location = new System.Drawing.Point(405, 39);
             this.materialCard19.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard19.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard19.Name = "materialCard19";
             this.materialCard19.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard19.Size = new System.Drawing.Size(365, 473);
+            this.materialCard19.Size = new System.Drawing.Size(373, 477);
             this.materialCard19.TabIndex = 1;
             // 
             // label171
@@ -6805,7 +6868,7 @@ namespace WinFormsApp1
             this.label171.BackColor = System.Drawing.Color.Honeydew;
             this.label171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label171.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label171.Location = new System.Drawing.Point(246, 443);
+            this.label171.Location = new System.Drawing.Point(250, 447);
             this.label171.Name = "label171";
             this.label171.Size = new System.Drawing.Size(59, 27);
             this.label171.TabIndex = 74;
@@ -6816,7 +6879,7 @@ namespace WinFormsApp1
             this.label172.BackColor = System.Drawing.Color.Honeydew;
             this.label172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label172.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label172.Location = new System.Drawing.Point(246, 417);
+            this.label172.Location = new System.Drawing.Point(250, 421);
             this.label172.Name = "label172";
             this.label172.Size = new System.Drawing.Size(59, 27);
             this.label172.TabIndex = 73;
@@ -6827,7 +6890,7 @@ namespace WinFormsApp1
             this.label169.BackColor = System.Drawing.Color.Honeydew;
             this.label169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label169.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label169.Location = new System.Drawing.Point(108, 443);
+            this.label169.Location = new System.Drawing.Point(112, 447);
             this.label169.Name = "label169";
             this.label169.Size = new System.Drawing.Size(139, 27);
             this.label169.TabIndex = 72;
@@ -6839,7 +6902,7 @@ namespace WinFormsApp1
             this.label170.BackColor = System.Drawing.Color.Honeydew;
             this.label170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label170.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label170.Location = new System.Drawing.Point(108, 417);
+            this.label170.Location = new System.Drawing.Point(112, 421);
             this.label170.Name = "label170";
             this.label170.Size = new System.Drawing.Size(139, 27);
             this.label170.TabIndex = 71;
@@ -6851,7 +6914,7 @@ namespace WinFormsApp1
             this.label82.BackColor = System.Drawing.Color.Honeydew;
             this.label82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label82.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label82.Location = new System.Drawing.Point(304, 289);
+            this.label82.Location = new System.Drawing.Point(308, 293);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(61, 181);
             this.label82.TabIndex = 70;
@@ -6862,7 +6925,7 @@ namespace WinFormsApp1
             this.label84.BackColor = System.Drawing.Color.Honeydew;
             this.label84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label84.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label84.Location = new System.Drawing.Point(304, 81);
+            this.label84.Location = new System.Drawing.Point(308, 85);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(61, 209);
             this.label84.TabIndex = 69;
@@ -6873,7 +6936,7 @@ namespace WinFormsApp1
             this.label85.BackColor = System.Drawing.Color.Honeydew;
             this.label85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label85.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label85.Location = new System.Drawing.Point(246, 393);
+            this.label85.Location = new System.Drawing.Point(250, 397);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(59, 27);
             this.label85.TabIndex = 68;
@@ -6884,7 +6947,7 @@ namespace WinFormsApp1
             this.label87.BackColor = System.Drawing.Color.Honeydew;
             this.label87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label87.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label87.Location = new System.Drawing.Point(246, 367);
+            this.label87.Location = new System.Drawing.Point(250, 371);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(59, 27);
             this.label87.TabIndex = 67;
@@ -6895,7 +6958,7 @@ namespace WinFormsApp1
             this.label88.BackColor = System.Drawing.Color.Honeydew;
             this.label88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label88.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label88.Location = new System.Drawing.Point(246, 341);
+            this.label88.Location = new System.Drawing.Point(250, 345);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(59, 27);
             this.label88.TabIndex = 66;
@@ -6906,7 +6969,7 @@ namespace WinFormsApp1
             this.label90.BackColor = System.Drawing.Color.Honeydew;
             this.label90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label90.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label90.Location = new System.Drawing.Point(246, 315);
+            this.label90.Location = new System.Drawing.Point(250, 319);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(59, 27);
             this.label90.TabIndex = 65;
@@ -6917,7 +6980,7 @@ namespace WinFormsApp1
             this.label91.BackColor = System.Drawing.Color.Honeydew;
             this.label91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label91.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label91.Location = new System.Drawing.Point(246, 289);
+            this.label91.Location = new System.Drawing.Point(250, 293);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(59, 27);
             this.label91.TabIndex = 64;
@@ -6928,7 +6991,7 @@ namespace WinFormsApp1
             this.label93.BackColor = System.Drawing.Color.Honeydew;
             this.label93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label93.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label93.Location = new System.Drawing.Point(246, 263);
+            this.label93.Location = new System.Drawing.Point(250, 267);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(59, 27);
             this.label93.TabIndex = 63;
@@ -6939,7 +7002,7 @@ namespace WinFormsApp1
             this.label94.BackColor = System.Drawing.Color.Honeydew;
             this.label94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label94.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label94.Location = new System.Drawing.Point(246, 237);
+            this.label94.Location = new System.Drawing.Point(250, 241);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(59, 27);
             this.label94.TabIndex = 62;
@@ -6950,7 +7013,7 @@ namespace WinFormsApp1
             this.label96.BackColor = System.Drawing.Color.Honeydew;
             this.label96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label96.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label96.Location = new System.Drawing.Point(246, 211);
+            this.label96.Location = new System.Drawing.Point(250, 215);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(59, 27);
             this.label96.TabIndex = 61;
@@ -6961,7 +7024,7 @@ namespace WinFormsApp1
             this.label97.BackColor = System.Drawing.Color.Honeydew;
             this.label97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label97.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label97.Location = new System.Drawing.Point(246, 185);
+            this.label97.Location = new System.Drawing.Point(250, 189);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(59, 27);
             this.label97.TabIndex = 60;
@@ -6972,7 +7035,7 @@ namespace WinFormsApp1
             this.label99.BackColor = System.Drawing.Color.Honeydew;
             this.label99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label99.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label99.Location = new System.Drawing.Point(246, 159);
+            this.label99.Location = new System.Drawing.Point(250, 163);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(59, 27);
             this.label99.TabIndex = 59;
@@ -6983,7 +7046,7 @@ namespace WinFormsApp1
             this.label100.BackColor = System.Drawing.Color.Honeydew;
             this.label100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label100.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label100.Location = new System.Drawing.Point(246, 133);
+            this.label100.Location = new System.Drawing.Point(250, 137);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(59, 27);
             this.label100.TabIndex = 58;
@@ -6994,7 +7057,7 @@ namespace WinFormsApp1
             this.label102.BackColor = System.Drawing.Color.Honeydew;
             this.label102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label102.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label102.Location = new System.Drawing.Point(246, 107);
+            this.label102.Location = new System.Drawing.Point(250, 111);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(59, 27);
             this.label102.TabIndex = 57;
@@ -7005,7 +7068,7 @@ namespace WinFormsApp1
             this.label103.BackColor = System.Drawing.Color.Honeydew;
             this.label103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label103.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label103.Location = new System.Drawing.Point(246, 81);
+            this.label103.Location = new System.Drawing.Point(250, 85);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(59, 27);
             this.label103.TabIndex = 56;
@@ -7016,7 +7079,7 @@ namespace WinFormsApp1
             this.label105.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label105.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label105.Location = new System.Drawing.Point(0, 289);
+            this.label105.Location = new System.Drawing.Point(4, 293);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(109, 181);
             this.label105.TabIndex = 55;
@@ -7028,7 +7091,7 @@ namespace WinFormsApp1
             this.label106.BackColor = System.Drawing.Color.Honeydew;
             this.label106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label106.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label106.Location = new System.Drawing.Point(108, 393);
+            this.label106.Location = new System.Drawing.Point(112, 397);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(139, 27);
             this.label106.TabIndex = 54;
@@ -7040,7 +7103,7 @@ namespace WinFormsApp1
             this.label108.BackColor = System.Drawing.Color.Honeydew;
             this.label108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label108.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label108.Location = new System.Drawing.Point(108, 367);
+            this.label108.Location = new System.Drawing.Point(112, 371);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(139, 27);
             this.label108.TabIndex = 53;
@@ -7052,7 +7115,7 @@ namespace WinFormsApp1
             this.label113.BackColor = System.Drawing.Color.Honeydew;
             this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label113.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label113.Location = new System.Drawing.Point(108, 341);
+            this.label113.Location = new System.Drawing.Point(112, 345);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(139, 27);
             this.label113.TabIndex = 52;
@@ -7064,7 +7127,7 @@ namespace WinFormsApp1
             this.label114.BackColor = System.Drawing.Color.Honeydew;
             this.label114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label114.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label114.Location = new System.Drawing.Point(108, 315);
+            this.label114.Location = new System.Drawing.Point(112, 319);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(139, 27);
             this.label114.TabIndex = 51;
@@ -7076,7 +7139,7 @@ namespace WinFormsApp1
             this.label115.BackColor = System.Drawing.Color.Honeydew;
             this.label115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label115.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label115.Location = new System.Drawing.Point(108, 289);
+            this.label115.Location = new System.Drawing.Point(112, 293);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(139, 27);
             this.label115.TabIndex = 50;
@@ -7088,7 +7151,7 @@ namespace WinFormsApp1
             this.label116.BackColor = System.Drawing.Color.Honeydew;
             this.label116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label116.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label116.Location = new System.Drawing.Point(108, 263);
+            this.label116.Location = new System.Drawing.Point(112, 267);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(139, 27);
             this.label116.TabIndex = 49;
@@ -7100,7 +7163,7 @@ namespace WinFormsApp1
             this.label117.BackColor = System.Drawing.Color.Honeydew;
             this.label117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label117.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label117.Location = new System.Drawing.Point(108, 237);
+            this.label117.Location = new System.Drawing.Point(112, 241);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(139, 27);
             this.label117.TabIndex = 48;
@@ -7112,7 +7175,7 @@ namespace WinFormsApp1
             this.label118.BackColor = System.Drawing.Color.Honeydew;
             this.label118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label118.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label118.Location = new System.Drawing.Point(108, 211);
+            this.label118.Location = new System.Drawing.Point(112, 215);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(139, 27);
             this.label118.TabIndex = 47;
@@ -7124,7 +7187,7 @@ namespace WinFormsApp1
             this.label119.BackColor = System.Drawing.Color.Honeydew;
             this.label119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label119.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label119.Location = new System.Drawing.Point(108, 185);
+            this.label119.Location = new System.Drawing.Point(112, 189);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(139, 27);
             this.label119.TabIndex = 46;
@@ -7136,7 +7199,7 @@ namespace WinFormsApp1
             this.label120.BackColor = System.Drawing.Color.Honeydew;
             this.label120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label120.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label120.Location = new System.Drawing.Point(108, 159);
+            this.label120.Location = new System.Drawing.Point(112, 163);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(139, 27);
             this.label120.TabIndex = 45;
@@ -7148,7 +7211,7 @@ namespace WinFormsApp1
             this.label121.BackColor = System.Drawing.Color.Honeydew;
             this.label121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label121.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label121.Location = new System.Drawing.Point(108, 107);
+            this.label121.Location = new System.Drawing.Point(112, 111);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(139, 27);
             this.label121.TabIndex = 44;
@@ -7160,7 +7223,7 @@ namespace WinFormsApp1
             this.label122.BackColor = System.Drawing.Color.Honeydew;
             this.label122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label122.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label122.Location = new System.Drawing.Point(108, 133);
+            this.label122.Location = new System.Drawing.Point(112, 137);
             this.label122.Name = "label122";
             this.label122.Size = new System.Drawing.Size(139, 27);
             this.label122.TabIndex = 43;
@@ -7172,7 +7235,7 @@ namespace WinFormsApp1
             this.label123.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label123.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label123.Location = new System.Drawing.Point(0, 81);
+            this.label123.Location = new System.Drawing.Point(4, 85);
             this.label123.Name = "label123";
             this.label123.Size = new System.Drawing.Size(109, 209);
             this.label123.TabIndex = 42;
@@ -7184,7 +7247,7 @@ namespace WinFormsApp1
             this.label124.BackColor = System.Drawing.Color.Honeydew;
             this.label124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label124.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label124.Location = new System.Drawing.Point(108, 81);
+            this.label124.Location = new System.Drawing.Point(112, 85);
             this.label124.Name = "label124";
             this.label124.Size = new System.Drawing.Size(139, 27);
             this.label124.TabIndex = 41;
@@ -7196,7 +7259,7 @@ namespace WinFormsApp1
             this.label125.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label125.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label125.Location = new System.Drawing.Point(304, 55);
+            this.label125.Location = new System.Drawing.Point(308, 59);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(61, 27);
             this.label125.TabIndex = 40;
@@ -7208,7 +7271,7 @@ namespace WinFormsApp1
             this.label126.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label126.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label126.Location = new System.Drawing.Point(246, 55);
+            this.label126.Location = new System.Drawing.Point(250, 59);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(59, 27);
             this.label126.TabIndex = 39;
@@ -7220,7 +7283,7 @@ namespace WinFormsApp1
             this.label127.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label127.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label127.Location = new System.Drawing.Point(0, 55);
+            this.label127.Location = new System.Drawing.Point(4, 59);
             this.label127.Name = "label127";
             this.label127.Size = new System.Drawing.Size(247, 27);
             this.label127.TabIndex = 38;
@@ -7232,7 +7295,7 @@ namespace WinFormsApp1
             this.label128.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label128.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label128.Location = new System.Drawing.Point(304, 29);
+            this.label128.Location = new System.Drawing.Point(308, 33);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(61, 27);
             this.label128.TabIndex = 37;
@@ -7243,7 +7306,7 @@ namespace WinFormsApp1
             this.label129.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label129.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label129.Location = new System.Drawing.Point(246, 29);
+            this.label129.Location = new System.Drawing.Point(250, 33);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(59, 27);
             this.label129.TabIndex = 36;
@@ -7254,7 +7317,7 @@ namespace WinFormsApp1
             this.label130.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label130.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label130.Location = new System.Drawing.Point(0, 29);
+            this.label130.Location = new System.Drawing.Point(4, 33);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(247, 27);
             this.label130.TabIndex = 35;
@@ -7263,8 +7326,9 @@ namespace WinFormsApp1
             // label13
             // 
             this.label13.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label13.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(0, 0);
+            this.label13.Location = new System.Drawing.Point(4, 4);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(365, 33);
             this.label13.TabIndex = 1;
@@ -7274,38 +7338,58 @@ namespace WinFormsApp1
             // materialCard18
             // 
             this.materialCard18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard18.Controls.Add(this.label44);
+            this.materialCard18.Controls.Add(this.label31);
+            this.materialCard18.Controls.Add(this.label34);
+            this.materialCard18.Controls.Add(this.label36);
+            this.materialCard18.Controls.Add(this.label38);
+            this.materialCard18.Controls.Add(this.label39);
+            this.materialCard18.Controls.Add(this.label41);
+            this.materialCard18.Controls.Add(this.label42);
+            this.materialCard18.Controls.Add(this.label47);
+            this.materialCard18.Controls.Add(this.label49);
+            this.materialCard18.Controls.Add(this.label50);
+            this.materialCard18.Controls.Add(this.label58);
+            this.materialCard18.Controls.Add(this.label59);
+            this.materialCard18.Controls.Add(this.label68);
+            this.materialCard18.Controls.Add(this.label65);
+            this.materialCard18.Controls.Add(this.label64);
+            this.materialCard18.Controls.Add(this.label62);
+            this.materialCard18.Controls.Add(this.label61);
+            this.materialCard18.Controls.Add(this.label71);
+            this.materialCard18.Controls.Add(this.label70);
+            this.materialCard18.Controls.Add(this.label67);
+            this.materialCard18.Controls.Add(this.label73);
+            this.materialCard18.Controls.Add(this.label182);
+            this.materialCard18.Controls.Add(this.label181);
+            this.materialCard18.Controls.Add(this.label178);
+            this.materialCard18.Controls.Add(this.label179);
+            this.materialCard18.Controls.Add(this.label180);
+            this.materialCard18.Controls.Add(this.label149);
+            this.materialCard18.Controls.Add(this.label136);
+            this.materialCard18.Controls.Add(this.label150);
+            this.materialCard18.Controls.Add(this.label159);
+            this.materialCard18.Controls.Add(this.label146);
+            this.materialCard18.Controls.Add(this.label173);
+            this.materialCard18.Controls.Add(this.label147);
+            this.materialCard18.Controls.Add(this.label174);
+            this.materialCard18.Controls.Add(this.label148);
+            this.materialCard18.Controls.Add(this.label175);
+            this.materialCard18.Controls.Add(this.label135);
+            this.materialCard18.Controls.Add(this.label176);
+            this.materialCard18.Controls.Add(this.label134);
+            this.materialCard18.Controls.Add(this.label133);
+            this.materialCard18.Controls.Add(this.label131);
             this.materialCard18.Controls.Add(this.label167);
             this.materialCard18.Controls.Add(this.label168);
             this.materialCard18.Controls.Add(this.label81);
-            this.materialCard18.Controls.Add(this.label73);
             this.materialCard18.Controls.Add(this.label74);
             this.materialCard18.Controls.Add(this.label76);
             this.materialCard18.Controls.Add(this.label79);
-            this.materialCard18.Controls.Add(this.label67);
-            this.materialCard18.Controls.Add(this.label68);
-            this.materialCard18.Controls.Add(this.label70);
-            this.materialCard18.Controls.Add(this.label71);
-            this.materialCard18.Controls.Add(this.label61);
-            this.materialCard18.Controls.Add(this.label62);
-            this.materialCard18.Controls.Add(this.label64);
-            this.materialCard18.Controls.Add(this.label65);
-            this.materialCard18.Controls.Add(this.label58);
-            this.materialCard18.Controls.Add(this.label59);
             this.materialCard18.Controls.Add(this.label56);
             this.materialCard18.Controls.Add(this.label55);
             this.materialCard18.Controls.Add(this.label53);
             this.materialCard18.Controls.Add(this.label52);
-            this.materialCard18.Controls.Add(this.label50);
-            this.materialCard18.Controls.Add(this.label49);
-            this.materialCard18.Controls.Add(this.label47);
-            this.materialCard18.Controls.Add(this.label44);
-            this.materialCard18.Controls.Add(this.label42);
-            this.materialCard18.Controls.Add(this.label41);
-            this.materialCard18.Controls.Add(this.label39);
-            this.materialCard18.Controls.Add(this.label38);
-            this.materialCard18.Controls.Add(this.label36);
-            this.materialCard18.Controls.Add(this.label34);
-            this.materialCard18.Controls.Add(this.label31);
             this.materialCard18.Controls.Add(this.label27);
             this.materialCard18.Controls.Add(this.label28);
             this.materialCard18.Controls.Add(this.label30);
@@ -7315,20 +7399,503 @@ namespace WinFormsApp1
             this.materialCard18.Controls.Add(this.label12);
             this.materialCard18.Depth = 0;
             this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard18.Location = new System.Drawing.Point(12, 9);
+            this.materialCard18.Location = new System.Drawing.Point(12, 39);
             this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard18.Name = "materialCard18";
             this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard18.Size = new System.Drawing.Size(365, 458);
+            this.materialCard18.Size = new System.Drawing.Size(373, 453);
             this.materialCard18.TabIndex = 1;
+            // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.Honeydew;
+            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label44.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label44.Location = new System.Drawing.Point(112, 241);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(139, 27);
+            this.label44.TabIndex = 57;
+            this.label44.Text = "Качели";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label31
+            // 
+            this.label31.BackColor = System.Drawing.Color.Honeydew;
+            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label31.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label31.Location = new System.Drawing.Point(112, 85);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(139, 27);
+            this.label31.TabIndex = 50;
+            this.label31.Text = "Включения";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label34.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label34.Location = new System.Drawing.Point(4, 85);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(109, 261);
+            this.label34.TabIndex = 51;
+            this.label34.Text = "Визуальный контроль";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.Honeydew;
+            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label36.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(112, 137);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(139, 27);
+            this.label36.TabIndex = 52;
+            this.label36.Text = "Линейный деффект";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.Honeydew;
+            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label38.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.Location = new System.Drawing.Point(112, 111);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(139, 27);
+            this.label38.TabIndex = 53;
+            this.label38.Text = "Пузырь";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.Color.Honeydew;
+            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label39.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label39.Location = new System.Drawing.Point(112, 163);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(139, 27);
+            this.label39.TabIndex = 54;
+            this.label39.Text = "Объект на границе зоны";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label41
+            // 
+            this.label41.BackColor = System.Drawing.Color.Honeydew;
+            this.label41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label41.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label41.Location = new System.Drawing.Point(112, 189);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(139, 27);
+            this.label41.TabIndex = 55;
+            this.label41.Text = "Мошка";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.Honeydew;
+            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label42.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label42.Location = new System.Drawing.Point(112, 215);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(139, 27);
+            this.label42.TabIndex = 56;
+            this.label42.Text = "Тонкий";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label47
+            // 
+            this.label47.BackColor = System.Drawing.Color.Honeydew;
+            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label47.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label47.Location = new System.Drawing.Point(112, 267);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(139, 27);
+            this.label47.TabIndex = 58;
+            this.label47.Text = "Крылья (шов)";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.Honeydew;
+            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label49.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label49.Location = new System.Drawing.Point(112, 293);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(139, 27);
+            this.label49.TabIndex = 59;
+            this.label49.Text = "Черное изображение";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label50
+            // 
+            this.label50.BackColor = System.Drawing.Color.Honeydew;
+            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label50.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label50.Location = new System.Drawing.Point(112, 319);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(139, 27);
+            this.label50.TabIndex = 60;
+            this.label50.Text = "Прочие деффекты";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label58
+            // 
+            this.label58.BackColor = System.Drawing.Color.Honeydew;
+            this.label58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label58.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label58.Location = new System.Drawing.Point(250, 319);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(59, 27);
+            this.label58.TabIndex = 21;
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            this.label59.BackColor = System.Drawing.Color.Honeydew;
+            this.label59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label59.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label59.Location = new System.Drawing.Point(250, 293);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(59, 27);
+            this.label59.TabIndex = 20;
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label68
+            // 
+            this.label68.BackColor = System.Drawing.Color.Honeydew;
+            this.label68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label68.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label68.Location = new System.Drawing.Point(250, 241);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(59, 27);
+            this.label68.TabIndex = 28;
+            this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label65
+            // 
+            this.label65.BackColor = System.Drawing.Color.Honeydew;
+            this.label65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label65.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label65.Location = new System.Drawing.Point(250, 85);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(59, 27);
+            this.label65.TabIndex = 22;
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label64
+            // 
+            this.label64.BackColor = System.Drawing.Color.Honeydew;
+            this.label64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label64.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label64.Location = new System.Drawing.Point(250, 111);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(59, 27);
+            this.label64.TabIndex = 23;
+            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label62
+            // 
+            this.label62.BackColor = System.Drawing.Color.Honeydew;
+            this.label62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label62.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label62.Location = new System.Drawing.Point(250, 137);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(59, 27);
+            this.label62.TabIndex = 24;
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label61
+            // 
+            this.label61.BackColor = System.Drawing.Color.Honeydew;
+            this.label61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label61.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label61.Location = new System.Drawing.Point(250, 163);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(59, 27);
+            this.label61.TabIndex = 25;
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.Honeydew;
+            this.label71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label71.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label71.Location = new System.Drawing.Point(250, 189);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(59, 27);
+            this.label71.TabIndex = 26;
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            this.label70.BackColor = System.Drawing.Color.Honeydew;
+            this.label70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label70.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label70.Location = new System.Drawing.Point(250, 215);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(59, 27);
+            this.label70.TabIndex = 27;
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label67
+            // 
+            this.label67.BackColor = System.Drawing.Color.Honeydew;
+            this.label67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label67.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label67.Location = new System.Drawing.Point(250, 267);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(59, 27);
+            this.label67.TabIndex = 29;
+            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.Honeydew;
+            this.label73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label73.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label73.Location = new System.Drawing.Point(308, 85);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(61, 261);
+            this.label73.TabIndex = 33;
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label182
+            // 
+            this.label182.BackColor = System.Drawing.Color.Honeydew;
+            this.label182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label182.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label182.Location = new System.Drawing.Point(308, 128);
+            this.label182.Name = "label182";
+            this.label182.Size = new System.Drawing.Size(61, 183);
+            this.label182.TabIndex = 49;
+            this.label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label181
+            // 
+            this.label181.BackColor = System.Drawing.Color.Honeydew;
+            this.label181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label181.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label181.Location = new System.Drawing.Point(308, 85);
+            this.label181.Name = "label181";
+            this.label181.Size = new System.Drawing.Size(61, 44);
+            this.label181.TabIndex = 48;
+            this.label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label178
+            // 
+            this.label178.BackColor = System.Drawing.Color.Honeydew;
+            this.label178.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label178.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label178.Location = new System.Drawing.Point(112, 284);
+            this.label178.Name = "label178";
+            this.label178.Size = new System.Drawing.Size(139, 27);
+            this.label178.TabIndex = 47;
+            this.label178.Text = "Всего по геометрии";
+            this.label178.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label179
+            // 
+            this.label179.BackColor = System.Drawing.Color.Honeydew;
+            this.label179.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label179.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label179.Location = new System.Drawing.Point(112, 258);
+            this.label179.Name = "label179";
+            this.label179.Size = new System.Drawing.Size(139, 27);
+            this.label179.TabIndex = 46;
+            this.label179.Text = "Контур";
+            this.label179.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label180
+            // 
+            this.label180.BackColor = System.Drawing.Color.Honeydew;
+            this.label180.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label180.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label180.Location = new System.Drawing.Point(112, 232);
+            this.label180.Name = "label180";
+            this.label180.Size = new System.Drawing.Size(139, 27);
+            this.label180.TabIndex = 45;
+            this.label180.Text = "Диаметр";
+            this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label149
+            // 
+            this.label149.BackColor = System.Drawing.Color.Honeydew;
+            this.label149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label149.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label149.Location = new System.Drawing.Point(250, 284);
+            this.label149.Name = "label149";
+            this.label149.Size = new System.Drawing.Size(59, 27);
+            this.label149.TabIndex = 36;
+            this.label149.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label136
+            // 
+            this.label136.BackColor = System.Drawing.Color.Honeydew;
+            this.label136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label136.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label136.Location = new System.Drawing.Point(112, 206);
+            this.label136.Name = "label136";
+            this.label136.Size = new System.Drawing.Size(139, 27);
+            this.label136.TabIndex = 44;
+            this.label136.Text = "Высота";
+            this.label136.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label150
+            // 
+            this.label150.BackColor = System.Drawing.Color.Honeydew;
+            this.label150.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label150.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label150.Location = new System.Drawing.Point(250, 128);
+            this.label150.Name = "label150";
+            this.label150.Size = new System.Drawing.Size(59, 27);
+            this.label150.TabIndex = 30;
+            this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label159
+            // 
+            this.label159.BackColor = System.Drawing.Color.Honeydew;
+            this.label159.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label159.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label159.Location = new System.Drawing.Point(250, 154);
+            this.label159.Name = "label159";
+            this.label159.Size = new System.Drawing.Size(59, 27);
+            this.label159.TabIndex = 31;
+            this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label146
+            // 
+            this.label146.BackColor = System.Drawing.Color.Honeydew;
+            this.label146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label146.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label146.Location = new System.Drawing.Point(112, 180);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(139, 27);
+            this.label146.TabIndex = 43;
+            this.label146.Text = "Горло";
+            this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label173
+            // 
+            this.label173.BackColor = System.Drawing.Color.Honeydew;
+            this.label173.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label173.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label173.Location = new System.Drawing.Point(250, 180);
+            this.label173.Name = "label173";
+            this.label173.Size = new System.Drawing.Size(59, 27);
+            this.label173.TabIndex = 32;
+            this.label173.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label147
+            // 
+            this.label147.BackColor = System.Drawing.Color.Honeydew;
+            this.label147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label147.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label147.Location = new System.Drawing.Point(112, 154);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(139, 27);
+            this.label147.TabIndex = 42;
+            this.label147.Text = "Вертикаль";
+            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label174
+            // 
+            this.label174.BackColor = System.Drawing.Color.Honeydew;
+            this.label174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label174.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label174.Location = new System.Drawing.Point(250, 206);
+            this.label174.Name = "label174";
+            this.label174.Size = new System.Drawing.Size(59, 27);
+            this.label174.TabIndex = 33;
+            this.label174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label148
+            // 
+            this.label148.BackColor = System.Drawing.Color.Honeydew;
+            this.label148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label148.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label148.Location = new System.Drawing.Point(112, 128);
+            this.label148.Name = "label148";
+            this.label148.Size = new System.Drawing.Size(139, 27);
+            this.label148.TabIndex = 41;
+            this.label148.Text = "Овал";
+            this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label175
+            // 
+            this.label175.BackColor = System.Drawing.Color.Honeydew;
+            this.label175.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label175.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label175.Location = new System.Drawing.Point(250, 232);
+            this.label175.Name = "label175";
+            this.label175.Size = new System.Drawing.Size(59, 27);
+            this.label175.TabIndex = 34;
+            this.label175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label135
+            // 
+            this.label135.BackColor = System.Drawing.Color.Honeydew;
+            this.label135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label135.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label135.Location = new System.Drawing.Point(250, 85);
+            this.label135.Name = "label135";
+            this.label135.Size = new System.Drawing.Size(59, 44);
+            this.label135.TabIndex = 40;
+            this.label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label176
+            // 
+            this.label176.BackColor = System.Drawing.Color.Honeydew;
+            this.label176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label176.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label176.Location = new System.Drawing.Point(250, 258);
+            this.label176.Name = "label176";
+            this.label176.Size = new System.Drawing.Size(59, 27);
+            this.label176.TabIndex = 35;
+            this.label176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label134
+            // 
+            this.label134.BackColor = System.Drawing.Color.Honeydew;
+            this.label134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label134.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label134.Location = new System.Drawing.Point(112, 85);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(139, 44);
+            this.label134.TabIndex = 39;
+            this.label134.Text = "Зоны 1-8";
+            this.label134.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label133
+            // 
+            this.label133.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label133.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label133.Location = new System.Drawing.Point(4, 128);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(109, 183);
+            this.label133.TabIndex = 38;
+            this.label133.Text = "Контроль геометрии";
+            this.label133.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label131
+            // 
+            this.label131.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label131.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label131.Location = new System.Drawing.Point(4, 85);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(109, 44);
+            this.label131.TabIndex = 37;
+            this.label131.Text = "Визуальный контроль";
+            this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label167
             // 
             this.label167.BackColor = System.Drawing.Color.Honeydew;
             this.label167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label167.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label167.Location = new System.Drawing.Point(246, 423);
+            this.label167.Location = new System.Drawing.Point(250, 423);
             this.label167.Name = "label167";
             this.label167.Size = new System.Drawing.Size(59, 27);
             this.label167.TabIndex = 36;
@@ -7339,7 +7906,7 @@ namespace WinFormsApp1
             this.label168.BackColor = System.Drawing.Color.Honeydew;
             this.label168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label168.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label168.Location = new System.Drawing.Point(108, 423);
+            this.label168.Location = new System.Drawing.Point(112, 423);
             this.label168.Name = "label168";
             this.label168.Size = new System.Drawing.Size(139, 27);
             this.label168.TabIndex = 35;
@@ -7351,29 +7918,18 @@ namespace WinFormsApp1
             this.label81.BackColor = System.Drawing.Color.Honeydew;
             this.label81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label81.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label81.Location = new System.Drawing.Point(304, 345);
+            this.label81.Location = new System.Drawing.Point(308, 345);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(61, 105);
             this.label81.TabIndex = 34;
             this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label73
-            // 
-            this.label73.BackColor = System.Drawing.Color.Honeydew;
-            this.label73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label73.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label73.Location = new System.Drawing.Point(304, 85);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(61, 261);
-            this.label73.TabIndex = 33;
-            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label74
             // 
             this.label74.BackColor = System.Drawing.Color.Honeydew;
             this.label74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label74.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label74.Location = new System.Drawing.Point(246, 397);
+            this.label74.Location = new System.Drawing.Point(250, 397);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(59, 27);
             this.label74.TabIndex = 32;
@@ -7384,7 +7940,7 @@ namespace WinFormsApp1
             this.label76.BackColor = System.Drawing.Color.Honeydew;
             this.label76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label76.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label76.Location = new System.Drawing.Point(246, 371);
+            this.label76.Location = new System.Drawing.Point(250, 371);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(59, 27);
             this.label76.TabIndex = 31;
@@ -7395,128 +7951,18 @@ namespace WinFormsApp1
             this.label79.BackColor = System.Drawing.Color.Honeydew;
             this.label79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label79.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label79.Location = new System.Drawing.Point(246, 345);
+            this.label79.Location = new System.Drawing.Point(250, 345);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(59, 27);
             this.label79.TabIndex = 30;
             this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label67
-            // 
-            this.label67.BackColor = System.Drawing.Color.Honeydew;
-            this.label67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label67.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label67.Location = new System.Drawing.Point(246, 319);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(59, 27);
-            this.label67.TabIndex = 29;
-            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label68
-            // 
-            this.label68.BackColor = System.Drawing.Color.Honeydew;
-            this.label68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label68.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label68.Location = new System.Drawing.Point(246, 293);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(59, 27);
-            this.label68.TabIndex = 28;
-            this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label70
-            // 
-            this.label70.BackColor = System.Drawing.Color.Honeydew;
-            this.label70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label70.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label70.Location = new System.Drawing.Point(246, 267);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(59, 27);
-            this.label70.TabIndex = 27;
-            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label71
-            // 
-            this.label71.BackColor = System.Drawing.Color.Honeydew;
-            this.label71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label71.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label71.Location = new System.Drawing.Point(246, 241);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(59, 27);
-            this.label71.TabIndex = 26;
-            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label61
-            // 
-            this.label61.BackColor = System.Drawing.Color.Honeydew;
-            this.label61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label61.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label61.Location = new System.Drawing.Point(246, 215);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(59, 27);
-            this.label61.TabIndex = 25;
-            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label62
-            // 
-            this.label62.BackColor = System.Drawing.Color.Honeydew;
-            this.label62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label62.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label62.Location = new System.Drawing.Point(246, 189);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(59, 27);
-            this.label62.TabIndex = 24;
-            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label64
-            // 
-            this.label64.BackColor = System.Drawing.Color.Honeydew;
-            this.label64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label64.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label64.Location = new System.Drawing.Point(246, 163);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(59, 27);
-            this.label64.TabIndex = 23;
-            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label65
-            // 
-            this.label65.BackColor = System.Drawing.Color.Honeydew;
-            this.label65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label65.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label65.Location = new System.Drawing.Point(246, 137);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(59, 27);
-            this.label65.TabIndex = 22;
-            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label58
-            // 
-            this.label58.BackColor = System.Drawing.Color.Honeydew;
-            this.label58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label58.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label58.Location = new System.Drawing.Point(246, 111);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(59, 27);
-            this.label58.TabIndex = 21;
-            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label59
-            // 
-            this.label59.BackColor = System.Drawing.Color.Honeydew;
-            this.label59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label59.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label59.Location = new System.Drawing.Point(246, 85);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(59, 27);
-            this.label59.TabIndex = 20;
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label56
             // 
             this.label56.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label56.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label56.Location = new System.Drawing.Point(0, 345);
+            this.label56.Location = new System.Drawing.Point(4, 345);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(109, 105);
             this.label56.TabIndex = 19;
@@ -7528,7 +7974,7 @@ namespace WinFormsApp1
             this.label55.BackColor = System.Drawing.Color.Honeydew;
             this.label55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label55.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label55.Location = new System.Drawing.Point(108, 397);
+            this.label55.Location = new System.Drawing.Point(112, 397);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(139, 27);
             this.label55.TabIndex = 18;
@@ -7540,7 +7986,7 @@ namespace WinFormsApp1
             this.label53.BackColor = System.Drawing.Color.Honeydew;
             this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label53.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label53.Location = new System.Drawing.Point(108, 371);
+            this.label53.Location = new System.Drawing.Point(112, 371);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(139, 27);
             this.label53.TabIndex = 17;
@@ -7552,151 +7998,19 @@ namespace WinFormsApp1
             this.label52.BackColor = System.Drawing.Color.Honeydew;
             this.label52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label52.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label52.Location = new System.Drawing.Point(108, 345);
+            this.label52.Location = new System.Drawing.Point(112, 345);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(139, 27);
             this.label52.TabIndex = 16;
             this.label52.Text = "Отклонение";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label50
-            // 
-            this.label50.BackColor = System.Drawing.Color.Honeydew;
-            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label50.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label50.Location = new System.Drawing.Point(108, 319);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(139, 27);
-            this.label50.TabIndex = 15;
-            this.label50.Text = "Прочие деффекты";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label49
-            // 
-            this.label49.BackColor = System.Drawing.Color.Honeydew;
-            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label49.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label49.Location = new System.Drawing.Point(108, 293);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(139, 27);
-            this.label49.TabIndex = 14;
-            this.label49.Text = "Черное изображение";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label47
-            // 
-            this.label47.BackColor = System.Drawing.Color.Honeydew;
-            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label47.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label47.Location = new System.Drawing.Point(108, 267);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(139, 27);
-            this.label47.TabIndex = 13;
-            this.label47.Text = "Крылья (шов)";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label44
-            // 
-            this.label44.BackColor = System.Drawing.Color.Honeydew;
-            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label44.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label44.Location = new System.Drawing.Point(108, 241);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(139, 27);
-            this.label44.TabIndex = 12;
-            this.label44.Text = "Качели";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label42
-            // 
-            this.label42.BackColor = System.Drawing.Color.Honeydew;
-            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label42.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label42.Location = new System.Drawing.Point(108, 215);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(139, 27);
-            this.label42.TabIndex = 11;
-            this.label42.Text = "Тонкий";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label41
-            // 
-            this.label41.BackColor = System.Drawing.Color.Honeydew;
-            this.label41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label41.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label41.Location = new System.Drawing.Point(108, 189);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(139, 27);
-            this.label41.TabIndex = 10;
-            this.label41.Text = "Мошка";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label39
-            // 
-            this.label39.BackColor = System.Drawing.Color.Honeydew;
-            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label39.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label39.Location = new System.Drawing.Point(108, 163);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(139, 27);
-            this.label39.TabIndex = 9;
-            this.label39.Text = "Объект на границе зоны";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.Honeydew;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label38.Location = new System.Drawing.Point(108, 111);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(139, 27);
-            this.label38.TabIndex = 8;
-            this.label38.Text = "Пузырь";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label36
-            // 
-            this.label36.BackColor = System.Drawing.Color.Honeydew;
-            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label36.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(108, 137);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(139, 27);
-            this.label36.TabIndex = 7;
-            this.label36.Text = "Линейный деффект";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label34
-            // 
-            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label34.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label34.Location = new System.Drawing.Point(0, 85);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(109, 261);
-            this.label34.TabIndex = 6;
-            this.label34.Text = "Визуальный контроль";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.BackColor = System.Drawing.Color.Honeydew;
-            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label31.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label31.Location = new System.Drawing.Point(108, 85);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(139, 27);
-            this.label31.TabIndex = 6;
-            this.label31.Text = "Включения";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // label27
             // 
             this.label27.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label27.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(304, 59);
+            this.label27.Location = new System.Drawing.Point(308, 59);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(61, 27);
             this.label27.TabIndex = 5;
@@ -7708,7 +8022,7 @@ namespace WinFormsApp1
             this.label28.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label28.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label28.Location = new System.Drawing.Point(246, 59);
+            this.label28.Location = new System.Drawing.Point(250, 59);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 27);
             this.label28.TabIndex = 4;
@@ -7720,7 +8034,7 @@ namespace WinFormsApp1
             this.label30.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label30.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label30.Location = new System.Drawing.Point(0, 59);
+            this.label30.Location = new System.Drawing.Point(4, 59);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(247, 27);
             this.label30.TabIndex = 3;
@@ -7732,42 +8046,40 @@ namespace WinFormsApp1
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label22.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(304, 33);
+            this.label22.Location = new System.Drawing.Point(308, 33);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(61, 27);
             this.label22.TabIndex = 2;
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label21
             // 
             this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label21.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(246, 33);
+            this.label21.Location = new System.Drawing.Point(250, 33);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(59, 27);
             this.label21.TabIndex = 1;
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label18
             // 
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label18.Font = new System.Drawing.Font("Roboto Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(0, 33);
+            this.label18.Location = new System.Drawing.Point(4, 33);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(247, 27);
             this.label18.TabIndex = 0;
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label12
             // 
             this.label12.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label12.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(0, 0);
+            this.label12.Location = new System.Drawing.Point(4, 4);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(365, 33);
             this.label12.TabIndex = 0;
@@ -7776,9 +8088,9 @@ namespace WinFormsApp1
             // 
             // controlMashineChart
             // 
-            this.controlMashineChart.Location = new System.Drawing.Point(12, 499);
+            this.controlMashineChart.Location = new System.Drawing.Point(12, 516);
             this.controlMashineChart.Name = "controlMashineChart";
-            this.controlMashineChart.Size = new System.Drawing.Size(1152, 355);
+            this.controlMashineChart.Size = new System.Drawing.Size(1152, 338);
             this.controlMashineChart.TabIndex = 0;
             // 
             // tabPage9
@@ -7965,7 +8277,6 @@ namespace WinFormsApp1
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Отдел технического контроля";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabPage17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.materialCard1.ResumeLayout(false);
@@ -8545,112 +8856,135 @@ namespace WinFormsApp1
         private MaterialSkin.Controls.MaterialCard materialCard19;
         private MaterialSkin.Controls.MaterialCard materialCard18;
         private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart controlMashineChart;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.Label label137;
-        private System.Windows.Forms.Label label138;
-        private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.Label label141;
-        private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.Label label144;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.Label label151;
-        private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.Label label156;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label label160;
-        private System.Windows.Forms.Label label161;
-        private System.Windows.Forms.Label label162;
-        private System.Windows.Forms.Label label163;
-        private System.Windows.Forms.Label label164;
-        private System.Windows.Forms.Label label165;
-        private System.Windows.Forms.Label label166;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.Label label88;
-        private System.Windows.Forms.Label label90;
-        private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.Label label99;
-        private System.Windows.Forms.Label label100;
-        private System.Windows.Forms.Label label102;
-        private System.Windows.Forms.Label label103;
-        private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.Label label106;
-        private System.Windows.Forms.Label label108;
-        private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.Label label114;
-        private System.Windows.Forms.Label label115;
-        private System.Windows.Forms.Label label116;
-        private System.Windows.Forms.Label label117;
-        private System.Windows.Forms.Label label118;
-        private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.Label label120;
-        private System.Windows.Forms.Label label121;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.Label label171;
-        private System.Windows.Forms.Label label172;
-        private System.Windows.Forms.Label label169;
-        private System.Windows.Forms.Label label170;
-        private System.Windows.Forms.Label label167;
-        private System.Windows.Forms.Label label168;
+        public System.Windows.Forms.Label lab_visir;
+        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label label16;
+        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.Label label27;
+        public System.Windows.Forms.Label label28;
+        public System.Windows.Forms.Label label30;
+        public System.Windows.Forms.Label label22;
+        public System.Windows.Forms.Label label21;
+        public System.Windows.Forms.Label label18;
+        public System.Windows.Forms.Label label81;
+        public System.Windows.Forms.Label label74;
+        public System.Windows.Forms.Label label76;
+        public System.Windows.Forms.Label label79;
+        public System.Windows.Forms.Label label67;
+        public System.Windows.Forms.Label label68;
+        public System.Windows.Forms.Label label70;
+        public System.Windows.Forms.Label label71;
+        public System.Windows.Forms.Label label61;
+        public System.Windows.Forms.Label label62;
+        public System.Windows.Forms.Label label64;
+        public System.Windows.Forms.Label label65;
+        public System.Windows.Forms.Label label58;
+        public System.Windows.Forms.Label label59;
+        public System.Windows.Forms.Label label56;
+        public System.Windows.Forms.Label label55;
+        public System.Windows.Forms.Label label53;
+        public System.Windows.Forms.Label label52;
+        public System.Windows.Forms.Label label132;
+        public System.Windows.Forms.Label label137;
+        public System.Windows.Forms.Label label138;
+        public System.Windows.Forms.Label label139;
+        public System.Windows.Forms.Label label140;
+        public System.Windows.Forms.Label label141;
+        public System.Windows.Forms.Label label142;
+        public System.Windows.Forms.Label label143;
+        public System.Windows.Forms.Label label144;
+        public System.Windows.Forms.Label label145;
+        public System.Windows.Forms.Label label151;
+        public System.Windows.Forms.Label label152;
+        public System.Windows.Forms.Label label153;
+        public System.Windows.Forms.Label label154;
+        public System.Windows.Forms.Label label155;
+        public System.Windows.Forms.Label label156;
+        public System.Windows.Forms.Label label157;
+        public System.Windows.Forms.Label label158;
+        public System.Windows.Forms.Label label160;
+        public System.Windows.Forms.Label label161;
+        public System.Windows.Forms.Label label162;
+        public System.Windows.Forms.Label label163;
+        public System.Windows.Forms.Label label164;
+        public System.Windows.Forms.Label label165;
+        public System.Windows.Forms.Label label166;
+        public System.Windows.Forms.Label label82;
+        public System.Windows.Forms.Label label84;
+        public System.Windows.Forms.Label label85;
+        public System.Windows.Forms.Label label87;
+        public System.Windows.Forms.Label label88;
+        public System.Windows.Forms.Label label90;
+        public System.Windows.Forms.Label label91;
+        public System.Windows.Forms.Label label93;
+        public System.Windows.Forms.Label label94;
+        public System.Windows.Forms.Label label96;
+        public System.Windows.Forms.Label label97;
+        public System.Windows.Forms.Label label99;
+        public System.Windows.Forms.Label label100;
+        public System.Windows.Forms.Label label102;
+        public System.Windows.Forms.Label label103;
+        public System.Windows.Forms.Label label105;
+        public System.Windows.Forms.Label label106;
+        public System.Windows.Forms.Label label108;
+        public System.Windows.Forms.Label label113;
+        public System.Windows.Forms.Label label114;
+        public System.Windows.Forms.Label label115;
+        public System.Windows.Forms.Label label116;
+        public System.Windows.Forms.Label label117;
+        public System.Windows.Forms.Label label118;
+        public System.Windows.Forms.Label label119;
+        public System.Windows.Forms.Label label120;
+        public System.Windows.Forms.Label label121;
+        public System.Windows.Forms.Label label122;
+        public System.Windows.Forms.Label label123;
+        public System.Windows.Forms.Label label124;
+        public System.Windows.Forms.Label label125;
+        public System.Windows.Forms.Label label126;
+        public System.Windows.Forms.Label label127;
+        public System.Windows.Forms.Label label128;
+        public System.Windows.Forms.Label label129;
+        public System.Windows.Forms.Label label130;
+        public System.Windows.Forms.Label label171;
+        public System.Windows.Forms.Label label172;
+        public System.Windows.Forms.Label label169;
+        public System.Windows.Forms.Label label170;
+        public System.Windows.Forms.Label label167;
+        public System.Windows.Forms.Label label168;
+        public System.Windows.Forms.Label label134;
+        public System.Windows.Forms.Label label133;
+        public System.Windows.Forms.Label label131;
+        public System.Windows.Forms.Label label182;
+        public System.Windows.Forms.Label label181;
+        public System.Windows.Forms.Label label178;
+        public System.Windows.Forms.Label label179;
+        public System.Windows.Forms.Label label180;
+        public System.Windows.Forms.Label label149;
+        public System.Windows.Forms.Label label136;
+        public System.Windows.Forms.Label label150;
+        public System.Windows.Forms.Label label159;
+        public System.Windows.Forms.Label label146;
+        public System.Windows.Forms.Label label173;
+        public System.Windows.Forms.Label label147;
+        public System.Windows.Forms.Label label174;
+        public System.Windows.Forms.Label label148;
+        public System.Windows.Forms.Label label175;
+        public System.Windows.Forms.Label label135;
+        public System.Windows.Forms.Label label176;
+        public System.Windows.Forms.Label label73;
+        public System.Windows.Forms.Label label44;
+        public System.Windows.Forms.Label label31;
+        public System.Windows.Forms.Label label34;
+        public System.Windows.Forms.Label label36;
+        public System.Windows.Forms.Label label38;
+        public System.Windows.Forms.Label label39;
+        public System.Windows.Forms.Label label41;
+        public System.Windows.Forms.Label label42;
+        public System.Windows.Forms.Label label47;
+        public System.Windows.Forms.Label label49;
+        public System.Windows.Forms.Label label50;
+        public System.Windows.Forms.Button b_max;
+        public System.Windows.Forms.Button b_min;
     }
 }
 
